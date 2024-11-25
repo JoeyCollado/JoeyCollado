@@ -11,6 +11,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Front-End+Design+Specialist.;Open-source+Contributor.;Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" /> </p>
+
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joeycollado" alt="joeycollado" /></a> </p>
+
 ---
 
 ### 🌟 About Me
