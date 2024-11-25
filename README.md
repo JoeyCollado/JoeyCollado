@@ -78,34 +78,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
----
-
-## 📂 Featured Projects
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/JoeyCollado/Web-J2R.github.io">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=joeycollado&repo=project1&theme=radical" alt="Project 1" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/joeycollado/project2">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=joeycollado&repo=project2&theme=radical" alt="Project 2" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🎨 Fancy Divider ✨
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
----
 
 <p align="center">
   ✨ Thank you for visiting my profile! If you like what you see, let's connect! 😊
