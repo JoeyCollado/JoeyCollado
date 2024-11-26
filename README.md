@@ -4,7 +4,7 @@
 </h1>
 
 <h3 align="center" style="color: #1c6e8c;">
-  💻 Full-Stack Developer | 🎨 Front-End Design Specialist
+  💻 Full-Stack Developer | 💻 Skilled Front-End Developer
 </h3>
 
 <p align="center">
