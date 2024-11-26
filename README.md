@@ -11,28 +11,36 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Front-End+Design+Specialist.;Skilled+Front-End+Developer.;Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" /> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" />
+</p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joeycollado" alt="joeycollado" /></a> </p>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="joeycollado" />
+  </a>
+</p>
 
 ---
 
-### 🌟 About Me
+## 🌟 About Me
 
 - 💬 **Ask Me About**: Advanced React patterns, front-end development, and seamless user experiences.
 - 🚀 **Passion**: Building efficient, scalable, and visually appealing web applications.
-- 🌱 **Learning**: 
-  - Advanced **Tailwind CSS** design systems.
+- 🌱 **Currently Learning**:  
+  - Advanced **Tailwind CSS** design systems.  
   - Scalable back-end solutions with **Node.js** and **MongoDB**.
-- 📫 **Contact Me**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
+- 📫 **Reach Out**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  </picture>
+</div>
 
 ---
 
@@ -52,7 +60,7 @@
 
 ---
 
-## 🛠️ Skills and Tools
+## 🛠️ Tech Stacks
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,mongodb,mysql,git,aws,figma" alt="Skills" />
@@ -64,7 +72,7 @@
 ✨ **Fun Facts**:
 - 🌍 I enjoy contributing to open-source projects to support the tech community.
 - 🎮 I love creating gaming-inspired UI designs in my free time.
-- 📚 I actively learn about emerging tech trends like AI and blockchain!
+- 📚 I actively learn about emerging tech trends like AI and blockchain.
 
 🏆 **Achievements**:
 - ⭐ **Top Contributor** to several GitHub repositories.
@@ -86,11 +94,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
-
 
 <p align="center">
   ✨ Thank you for visiting my profile! If you like what you see, let's connect! 😊
