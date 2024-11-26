@@ -21,7 +21,9 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 ## 🌟 About Me
 
@@ -32,7 +34,9 @@
   - Scalable back-end solutions with **Node.js** and **MongoDB**.
 - 📫 **Reach Out**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 <div align="center">
   <picture>
@@ -42,7 +46,9 @@
   </picture>
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 ## 🌐 Connect with Me
 
@@ -58,7 +64,9 @@
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 ## 🛠️ Tech Stacks
 
@@ -66,7 +74,9 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,mongodb,mysql,git,aws,figma" alt="Skills" />
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 ## 🌟 Fun Facts & Achievements
 ✨ **Fun Facts**:
@@ -78,7 +88,9 @@
 - ⭐ **Top Contributor** to several GitHub repositories.
 - 🚀 Built and deployed a web app used by over **500+ users**.
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
 
 ## 📊 GitHub Stats
 
