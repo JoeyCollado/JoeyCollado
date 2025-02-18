@@ -27,7 +27,7 @@
 
 ## 🌟 About Me
 
-- I Am a self taught programmer that actively puruses Full-Stack Web Development, using a variety of useful technologies and always eager to learn new powerful technologies that can help me create more powerful websites. I started doing programming when i was 18 years old, i easily got into programming since i find it really fun to the point that i have decided to make a career out of it. I create personal projects in my free time and i also do freelancing when available. Programming for me is a journey and i don't ever see myself quitting this journey. Working with likeminded people for me is a joy and if you wish to create something with me, we can make it happen.
+- I am a self taught programmer that actively pursues Full-Stack Web Development using a variety of useful technologies and always eager to learn new powerful technologies that can help me create more powerful websites. I started doing programming when i was 18 years old, i easily got into programming since i find it really fun to the point that i have decided to make a career out of it. I create personal projects in my free time and i also do freelancing when available. Programming for me is a journey and i don't ever see myself quitting this journey. Working with likeminded people for me is a joy and if you wish to create something with me, we can make it happen.
   
 - 📫 **Reach Out**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
