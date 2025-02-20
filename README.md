@@ -105,5 +105,5 @@
 </p>
 
 <p align="center">
-  ✨ Thank you for visiting my profile! If you like what you see, let's connect! 😊
+  ✨ Thank you for visiting my profile! If you like what you see, let's connect and create something together! 😊
 </p>
