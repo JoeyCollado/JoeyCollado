@@ -78,12 +78,13 @@
 ## 🌟 Fun Facts & Achievements
 ✨ **Fun Facts**:
 - 🌍 I enjoy contributing to open-source projects to support the tech community.
-- 🎮 I love creating gaming-inspired UI designs in my free time.
-- 📚 I actively learn about emerging tech trends like AI and blockchain.
+- 🎮 I love creating fully functional websites with nice and clean UI's.
+- 📚 I actively learn new trends regarding full stack web development and.
 
 🏆 **Achievements**:
 - ⭐ **Top Contributor** to several GitHub repositories.
-- 🚀 Built and deployed a web app used by over **500+ users**.
+- 🚀 Built and deployed a web app used by many users.
+- I have won several hackathon competitions with my highest place being the champion
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
