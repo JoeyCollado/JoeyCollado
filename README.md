@@ -79,7 +79,7 @@
 ✨ **Fun Facts**:
 - 🌍 I enjoy contributing to open-source projects to support the tech community.
 - 🎮 I love creating fully functional websites with nice and clean UI's.
-- 📚 I actively learn new trends regarding full stack web development and.
+- 📚 I actively learn new trends regarding full stack web development.
 
 🏆 **Achievements**:
 - ⭐ **Top Contributor** to several GitHub repositories.
