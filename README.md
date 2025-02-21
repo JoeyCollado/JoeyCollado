@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #0e75b6;">
-  "Joey Aibert U. Collado" 
+   "Joey Aibert U. Collado" 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
 
