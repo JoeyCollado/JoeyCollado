@@ -8,7 +8,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Front-End+Design+Specialist.;Skilled+Front-End+Developer.;Full-Stack+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+Web+Developer.;Skilled+Front-End+Developer.;" alt="Typing SVG" />
 </p>
 
 <p align="center">
