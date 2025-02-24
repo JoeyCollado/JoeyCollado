@@ -76,13 +76,13 @@
 
 ## 🌟 Fun Facts & Achievements
 ✨ **Fun Facts**:
-- 🌍 I enjoy contributing to open-source projects to support the tech community.
-- 🎮 I love creating fully functional websites with nice and clean UI's.
-- 📚 I actively learn new trends regarding full stack web development.
+- I enjoy contributing to open-source projects to support the tech community.
+- I love creating fully functional websites with nice and clean UI's.
+- I actively learn new trends regarding full stack web development.
 
 🏆 **Achievements**:
-- ⭐ **Top Contributor** to several GitHub repositories.
-- 🚀 Built and deployed a web app used by many users.
+- **Top Contributor** to several GitHub repositories.
+- Built and deployed a web app used by many users.
 - I have won several hackathon competitions with my highest place being the champion
 
 <p align="center">
