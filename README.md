@@ -63,25 +63,23 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
-
 ## 🛠️ Tech Stacks
 
 <p align="center">
   <img src="assets/icons/nodeJs.png" alt="Node JS" width="50" height="50" />
   <img src="assets/icons/expressJs.png" alt="Express JS" width="50" height="50" />
-  <img src="assets/icons/java_icon.png" alt="Java" width="50" height="50" />
-  <img src="assets/icons/css_icon.png" alt="CSS" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="50" height="50" />
   <img src="assets/icons/tailwindcss.png" alt="Tailwind CSS" width="50" height="50" />
-  <img src="assets/icons/js_icon.png" alt="Javascript" width="50" height="50" />
-  <img src="assets/icons/html_icon.png" alt="HTML" width="50" height="50" />
-  <img src="assets/icons/ts_icon.png" alt="Typescript" width="50" height="50" />
-  <img src="assets/icons/reactIcon.png" alt="React JS" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" width="50" height="50" />
   <img src="assets/icons/shadcn.png" alt="Shad CN" width="50" height="50" />
   <img src="assets/icons/nextjs.png" alt="Next JS" width="50" height="50" />
   <img src="assets/icons/framerMotion.png" alt="Framer Motion" width="50" height="50" />
   <img src="assets/icons/threeJs.png" alt="Three JS" width="50" height="50" />
   <img src="assets/icons/mysql.png" alt="MySQL" width="50" height="50" />
-  <img src="assets/icons/react_icon.png" alt="React JS" width="50" height="50" />
   <img src="assets/icons/prisma.png" alt="Prisma" width="50" height="50" />
   <img src="assets/icons/postgresql.png" alt="PostgreSQL" width="50" height="50" />
   <img src="assets/icons/clerk.png" alt="Clerk" width="50" height="50" />
@@ -105,6 +103,7 @@
   <img src="assets/icons/vercel.png" alt="Vercel" width="50" height="50" />
   <img src="assets/icons/gitbash.png" alt="Git Bash" width="50" height="50" />
 </p>
+
 
 
 
