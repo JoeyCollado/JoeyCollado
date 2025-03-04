@@ -24,10 +24,12 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-<h1 align="center">
+<h1 align="center" style="color: blue;">
    🌟 Trophies
    <br><br>
 </h1>
+
+
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
