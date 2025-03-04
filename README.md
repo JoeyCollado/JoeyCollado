@@ -26,7 +26,7 @@
 
 ## 🌟 About Me
 
-- I am a self taught programmer that actively pursues Full-Stack Web Development using a variety of useful technologies and always eager to learn new powerful technologies that can help me create more powerful websites. I started doing programming when i was 18 years old, i easily got into programming since i find it really fun to the point that i have decided to make a career out of it. I create personal projects in my free time and i also do freelancing when available. Programming for me is a journey and i don't ever see myself quitting this journey. Working with likeminded people for me is a joy and if you wish to create something with me, we can make it happen.
+- I am a self-taught programmer actively pursuing Full-Stack Web Development using a variety of useful technologies and always eager to learn new powerful technologies that can help me create more powerful websites. I started programming at 18 years old and quickly got into it because I find it really fun, which led me to make a career out of it. I create personal projects in my free time and also do freelancing when available. Programming for me is a journey, and I don't ever see myself quitting this journey. Working with like-minded people is a joy, and if you wish to create something with me, we can make it happen.
   
 - 📫 **Reach Out**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
@@ -67,7 +67,7 @@
 ## 🛠️ Tech Stacks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,tailwind,mongodb,mysql,git,aws,figma" alt="Skills" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,mysql,postgresql,prisma,python,java,visualbasic,git,github,gitbash,vercel,aws,figma,openai,deepseek,chatgpt,copilot,leaflet,socketio,framer,threejs,tailwind,shadcn,oracle,visualstudio,vscode,eclipse,svgrepo,fontawesome" alt="Skills" />
 </p>
 
 <p align="center">
@@ -77,19 +77,35 @@
 ## 🌟 Fun Facts & Achievements
 ✨ **Fun Facts**:
 - I enjoy contributing to open-source projects to support the tech community.
-- I love creating fully functional websites with nice and clean UI's.
-- I actively learn new trends regarding full stack web development.
+- I love creating fully functional websites with nice and clean UIs.
+- I actively learn new trends in full-stack web development.
 
 🏆 **Achievements**:
 - **Top Contributor** to several GitHub repositories.
 - Built and deployed a web app used by many users.
-- I have won several hackathon competitions with my highest place being the champion
+- Won several hackathon competitions, with my highest place being the champion.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
 ## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical&langs_count=10" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
+
+<p align="center">
+  ✨ Thank you for visiting my profile! If you like what you see, let's connect and create something together! 😊
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
