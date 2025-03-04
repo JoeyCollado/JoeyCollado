@@ -55,6 +55,7 @@
 
 <h1 align="center">
    🌐 Connect with Me  
+   <br><br>
 </h1>
 
 <p align="center">
