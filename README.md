@@ -230,6 +230,7 @@
 <br><br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/icons/bluefire.gif" alt="Blue Fire Divider">
+  <img src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/icons/bluefire.gif" alt="Blue Fire Divider" loading="eager">
 </p>
+
 
