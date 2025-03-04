@@ -168,9 +168,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-<p align="center">
+<h1 align="center">
     📊 GitHub Stats  
-</p>
+</h1>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
