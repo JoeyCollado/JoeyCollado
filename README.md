@@ -63,45 +63,46 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
+
 ## 🛠️ Tech Stacks
 
 <p align="center">
-  <img src="assets/icons/nodeJs.png" alt="Node JS" width="50" height="50" />
-  <img src="assets/icons/expressJs.png" alt="Express JS" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="50" height="50" />
-  <img src="assets/icons/tailwindcss.png" alt="Tailwind CSS" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" width="50" height="50" />
-  <img src="assets/icons/shadcn.png" alt="Shad CN" width="50" height="50" />
-  <img src="assets/icons/nextjs.png" alt="Next JS" width="50" height="50" />
-  <img src="assets/icons/framerMotion.png" alt="Framer Motion" width="50" height="50" />
-  <img src="assets/icons/threeJs.png" alt="Three JS" width="50" height="50" />
-  <img src="assets/icons/mysql.png" alt="MySQL" width="50" height="50" />
-  <img src="assets/icons/prisma.png" alt="Prisma" width="50" height="50" />
-  <img src="assets/icons/postgresql.png" alt="PostgreSQL" width="50" height="50" />
-  <img src="assets/icons/clerk.png" alt="Clerk" width="50" height="50" />
-  <img src="assets/icons/python.png" alt="Python" width="50" height="50" />
-  <img src="assets/icons/visualbasic.png" alt="Visual Basic" width="50" height="50" />
-  <img src="assets/icons/visualstudiocode.png" alt="Visual Studio Code" width="50" height="50" />
-  <img src="assets/icons/visualstudio.png" alt="Visual Studio" width="50" height="50" />
-  <img src="assets/icons/eclipse.png" alt="Eclipse" width="50" height="50" />
-  <img src="assets/icons/oracle.png" alt="Oracle" width="50" height="50" />
-  <img src="assets/icons/figma.png" alt="Figma" width="50" height="50" />
-  <img src="assets/icons/openai.png" alt="Open AI" width="50" height="50" />
-  <img src="assets/icons/deepseek.png" alt="DeepSeek" width="50" height="50" />
-  <img src="assets/icons/chatgpt.png" alt="Chat GPT" width="50" height="50" />
-  <img src="assets/icons/copilot.png" alt="Copilot" width="50" height="50" />
-  <img src="assets/icons/leaflet.png" alt="Leaflet" width="50" height="50" />
-  <img src="assets/icons/socketio.png" alt="Socket IO" width="50" height="50" />
-  <img src="assets/icons/fontawesome.png" alt="Fontawesome" width="50" height="50" />
-  <img src="assets/icons/svgrepo.png" alt="SVG Repo" width="50" height="50" />
-  <img src="assets/icons/githubIcon.png" alt="Github" width="50" height="50" />
-  <img src="assets/icons/git.png" alt="Git" width="50" height="50" />
-  <img src="assets/icons/vercel.png" alt="Vercel" width="50" height="50" />
-  <img src="assets/icons/gitbash.png" alt="Git Bash" width="50" height="50" />
+  <img src="assets/icons/nodeJs.png" alt="Node JS" title="Node JS" width="50" height="50" />
+  <img src="assets/icons/expressJs.png" alt="Express JS" title="Express JS" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" width="50" height="50" />
+  <img src="assets/icons/tailwindcss.png" alt="Tailwind CSS" title="Tailwind CSS" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" title="Javascript" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" title="Typescript" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" title="React JS" width="50" height="50" />
+  <img src="assets/icons/shadcn.png" alt="Shad CN" title="Shad CN" width="50" height="50" />
+  <img src="assets/icons/nextjs.png" alt="Next JS" title="Next JS" width="50" height="50" />
+  <img src="assets/icons/framerMotion.png" alt="Framer Motion" title="Framer Motion" width="50" height="50" />
+  <img src="assets/icons/threeJs.png" alt="Three JS" title="Three JS" width="50" height="50" />
+  <img src="assets/icons/mysql.png" alt="MySQL" title="MySQL" width="50" height="50" />
+  <img src="assets/icons/prisma.png" alt="Prisma" title="Prisma" width="50" height="50" />
+  <img src="assets/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="50" height="50" />
+  <img src="assets/icons/clerk.png" alt="Clerk" title="Clerk" width="50" height="50" />
+  <img src="assets/icons/python.png" alt="Python" title="Python" width="50" height="50" />
+  <img src="assets/icons/visualbasic.png" alt="Visual Basic" title="Visual Basic" width="50" height="50" />
+  <img src="assets/icons/visualstudiocode.png" alt="Visual Studio Code" title="Visual Studio Code" width="50" height="50" />
+  <img src="assets/icons/visualstudio.png" alt="Visual Studio" title="Visual Studio" width="50" height="50" />
+  <img src="assets/icons/eclipse.png" alt="Eclipse" title="Eclipse" width="50" height="50" />
+  <img src="assets/icons/oracle.png" alt="Oracle" title="Oracle" width="50" height="50" />
+  <img src="assets/icons/figma.png" alt="Figma" title="Figma" width="50" height="50" />
+  <img src="assets/icons/openai.png" alt="Open AI" title="Open AI" width="50" height="50" />
+  <img src="assets/icons/deepseek.png" alt="DeepSeek" title="DeepSeek" width="50" height="50" />
+  <img src="assets/icons/chatgpt.png" alt="Chat GPT" title="Chat GPT" width="50" height="50" />
+  <img src="assets/icons/copilot.png" alt="Copilot" title="Copilot" width="50" height="50" />
+  <img src="assets/icons/leaflet.png" alt="Leaflet" title="Leaflet" width="50" height="50" />
+  <img src="assets/icons/socketio.png" alt="Socket IO" title="Socket IO" width="50" height="50" />
+  <img src="assets/icons/fontawesome.png" alt="Fontawesome" title="Fontawesome" width="50" height="50" />
+  <img src="assets/icons/svgrepo.png" alt="SVG Repo" title="SVG Repo" width="50" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" title="Github" width="50" height="50" />
+  <img src="assets/icons/git.png" alt="Git" title="Git" width="50" height="50" />
+  <img src="assets/icons/vercel.png" alt="Vercel" title="Vercel" width="50" height="50" />
+  <img src="assets/icons/gitbash.png" alt="Git Bash" title="Git Bash" width="50" height="50" />
 </p>
 
 
