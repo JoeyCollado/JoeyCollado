@@ -176,6 +176,7 @@
 
 <h1 align="center">
     📊 GitHub Stats  
+   <br><br>
 </h1>
 
 <p align="center">
