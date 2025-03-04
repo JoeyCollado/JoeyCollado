@@ -1,4 +1,6 @@
+
 <h1 align="center" style="color: #0e75b6;">
+   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" /><br>
    Joey Aibert U. Collado 
    <br><br>
 </h1>
@@ -214,7 +216,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
   </picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" />
 </div>
 
 
