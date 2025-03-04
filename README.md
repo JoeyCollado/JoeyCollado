@@ -4,10 +4,6 @@
 </h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
@@ -20,8 +16,13 @@
 </p>
 
 
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" />
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
 </p>
 
 <p align="center">
