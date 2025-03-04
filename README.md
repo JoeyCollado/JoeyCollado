@@ -227,8 +227,9 @@
 <br><br>
 
 <p align="center">
-  <img src="https://github.com/JoeyCollado/JoeyCollado/blob/main/assets/icons/bluefire.gif?raw=true&width=100%" alt="Blue Fire Divider">
+  <img src="https://github.com/JoeyCollado/JoeyCollado/blob/main/assets/icons/bluefire.gif?raw=true" alt="Blue Fire Divider" width="100%">
 </p>
+
 
 
 
