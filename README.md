@@ -12,6 +12,7 @@
 
 <h2 align="center" style="color: #1c6e8c;">
   💻 Full-Stack Web Developer | 💻 Skilled Front-End Developer
+  <br><br>
 </h2>
 
 <p align="center">
