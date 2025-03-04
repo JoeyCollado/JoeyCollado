@@ -207,10 +207,6 @@
   <img src="https://streak-stats.demolab.com?user=joeycollado&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 </p>
 
-<p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
-</p>
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
