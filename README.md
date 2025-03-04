@@ -70,7 +70,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🛠️ Tech Stacks  
+<p align="center">
+   🛠️ Tech Stacks  
+</p>
 
 <div align="center">
 
