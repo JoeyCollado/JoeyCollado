@@ -99,7 +99,7 @@
   <img src="assets/icons/socketio.png" alt="Socket IO" title="Socket IO" width="50" height="50" />
   <img src="assets/icons/fontawesome.png" alt="Fontawesome" title="Fontawesome" width="50" height="50" />
   <img src="assets/icons/svgrepo.png" alt="SVG Repo" title="SVG Repo" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" title="Github" width="50" height="50" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github" title="Github" width="50" height="50" />
   <img src="assets/icons/git.png" alt="Git" title="Git" width="50" height="50" />
   <img src="assets/icons/vercel.png" alt="Vercel" title="Vercel" width="50" height="50" />
   <img src="assets/icons/gitbash.png" alt="Git Bash" title="Git Bash" width="50" height="50" />
