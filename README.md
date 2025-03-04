@@ -4,6 +4,7 @@
    <br><br>
 </h1>
 
+
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
@@ -219,7 +220,7 @@
 
 
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=120&width=100%" alt="Neon Glow Divider">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
 <p align="center">
@@ -229,5 +230,5 @@
 <br><br>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&width=100%" alt="Blue Wave Effect" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" />
 </div>
