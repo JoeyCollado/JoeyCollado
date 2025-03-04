@@ -7,9 +7,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-<h3 align="center" style="color: #1c6e8c;">
+<h2 align="center" style="color: #1c6e8c;">
   💻 Full-Stack Web Developer | 💻 Skilled Front-End Developer
-</h3>
+</h2>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+Web+Developer.;Skilled+Front-End+Developer.;Creating+Awesome+Web+Experiences.;" alt="Typing SVG" />
