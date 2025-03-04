@@ -3,7 +3,7 @@
     <td>
 <h1 align="center" style="color: #0e75b6;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" /><br>
-   Joey Aibert U. Collado 
+   Joey Aibert U. Collado
    <br><br>
 </h1>
     </td>
