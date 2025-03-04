@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/icons/divider.svg" alt="Animated Divider">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
 
@@ -23,8 +23,6 @@
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
 </p>
-
-
 
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
