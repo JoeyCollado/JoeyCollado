@@ -227,5 +227,5 @@
 </p>
 
 <div align="center">
-     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&width=100%" alt="Blue Wave Effect" />
 </div>
