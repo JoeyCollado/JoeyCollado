@@ -23,6 +23,8 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
+## 🌟 Achievements
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="joeycollado" />
 </p>
