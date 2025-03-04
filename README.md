@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #0e75b6;">
-   "Joey Aibert U. Collado" 
+   Joey Aibert U. Collado 
 </h1>
 
 <h3 align="center" style="color: #1c6e8c;">
@@ -7,7 +7,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+Web+Developer.;Skilled+Front-End+Developer.;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+Web+Developer.;Skilled+Front-End+Developer.;Creating+Awesome+Web+Experiences.;" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -15,38 +15,26 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="joeycollado" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="joeycollado" />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🌟 About Me
+## 🌟 About Me  
 
-- I am a self-taught programmer actively pursuing Full-Stack Web Development using a variety of useful technologies and always eager to learn new powerful technologies that can help me create more powerful websites. I started programming at 18 years old and quickly got into it because I find it really fun, which led me to make a career out of it. I create personal projects in my free time and also do freelancing when available. Programming for me is a journey, and I don't ever see myself quitting this journey. Working with like-minded people is a joy, and if you wish to create something with me, we can make it happen.
-  
-- 📫 **Reach Out**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
-</p>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  </picture>
-</div>
+- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.
+- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.
+- 🏆 Active in **open-source contributions**, helping improve the tech community.
+- 🎯 Constantly learning **new web technologies** to stay ahead in the game.
+- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🌐 Connect with Me
+## 🌐 Connect with Me  
 
 <p align="center">
   <a href="https://www.linkedin.com/in/joey-aibert-collado-8a4a46282/" target="_blank">
@@ -105,26 +93,23 @@
   <img src="assets/icons/gitbash.png" alt="Git Bash" title="Git Bash" width="50" height="50" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
-</p>
+## 🌟 Fun Facts & Achievements  
 
-## 🌟 Fun Facts & Achievements
-✨ **Fun Facts**:
-- I enjoy contributing to open-source projects to support the tech community.
-- I love creating fully functional websites with nice and clean UIs.
-- I actively learn new trends in full-stack web development.
+✨ **Fun Facts**:  
+- 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.  
+- 🏗️ Love experimenting with **3D elements and animations** in web apps.  
+- 🔥 Enjoy **teaching and mentoring** others in coding.  
 
-🏆 **Achievements**:
-- **Top Contributor** to several GitHub repositories.
-- Built and deployed a web app used by many users.
-- Won several hackathon competitions, with my highest place being the champion.
+🏆 **Achievements**:  
+- 🥇 **Top Contributor** in various GitHub repositories.  
+- 🌍 Built and launched multiple **production-level web apps**.  
+- 🏆 **Hackathon Champion** in web development competitions.  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
@@ -135,9 +120,21 @@
 </p>
 
 <p align="center">
+  <img src="https://streak-stats.demolab.com?user=joeycollado&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+</p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  </picture>
+</div>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
 <p align="center">
-  ✨ Thank you for visiting my profile! If you like what you see, let's connect and create something together! 😊
+  ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
 </p>
