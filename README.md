@@ -40,6 +40,7 @@
 
 <h1 align="center">
 🌟 About Me  
+   <br><br>
 </h1>
 
 - 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.
