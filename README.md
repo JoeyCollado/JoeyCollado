@@ -4,12 +4,11 @@
 </h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&color=36BCF7&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" alt="Glowing Divider">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:00FFFF&height=100&section=footer" alt="Wavy Divider">
-</p>
+
 
 
 <h2 align="center" style="color: #1c6e8c;">
