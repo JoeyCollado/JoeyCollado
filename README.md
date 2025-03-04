@@ -67,8 +67,46 @@
 ## 🛠️ Tech Stacks
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,mysql,postgresql,prisma,python,java,visualbasic,git,github,gitbash,vercel,aws,figma,openai,deepseek,chatgpt,copilot,leaflet,socketio,framer,threejs,tailwind,shadcn,oracle,visualstudio,vscode,eclipse,svgrepo,fontawesome" alt="Skills" />
+  <img src="assets/icons/html.png" alt="HTML" width="50" height="50" />
+  <img src="assets/icons/css.png" alt="CSS" width="50" height="50" />
+  <img src="assets/icons/js_icon.png" alt="JavaScript" width="50" height="50" />
+  <img src="assets/icons/ts_icon.png" alt="TypeScript" width="50" height="50" />
+  <img src="assets/icons/react.png" alt="React" width="50" height="50" />
+  <img src="assets/icons/nextjs.png" alt="Next.js" width="50" height="50" />
+  <img src="assets/icons/nodejs.png" alt="Node.js" width="50" height="50" />
+  <img src="assets/icons/express.png" alt="Express.js" width="50" height="50" />
+  <img src="assets/icons/mongodb.png" alt="MongoDB" width="50" height="50" />
+  <img src="assets/icons/mysql.png" alt="MySQL" width="50" height="50" />
+  <img src="assets/icons/postgresql.png" alt="PostgreSQL" width="50" height="50" />
+  <img src="assets/icons/prisma.png" alt="Prisma" width="50" height="50" />
+  <img src="assets/icons/python.png" alt="Python" width="50" height="50" />
+  <img src="assets/icons/java.png" alt="Java" width="50" height="50" />
+  <img src="assets/icons/visualbasic.png" alt="Visual Basic" width="50" height="50" />
+  <img src="assets/icons/git.png" alt="Git" width="50" height="50" />
+  <img src="assets/icons/github.png" alt="GitHub" width="50" height="50" />
+  <img src="assets/icons/gitbash.png" alt="Git Bash" width="50" height="50" />
+  <img src="assets/icons/vercel.png" alt="Vercel" width="50" height="50" />
+  <img src="assets/icons/aws.png" alt="AWS" width="50" height="50" />
+  <img src="assets/icons/figma.png" alt="Figma" width="50" height="50" />
+  <img src="assets/icons/openai.png" alt="OpenAI" width="50" height="50" />
+  <img src="assets/icons/deepseek.png" alt="DeepSeek" width="50" height="50" />
+  <img src="assets/icons/chatgpt.png" alt="ChatGPT" width="50" height="50" />
+  <img src="assets/icons/copilot.png" alt="GitHub Copilot" width="50" height="50" />
+  <img src="assets/icons/leaflet.png" alt="Leaflet" width="50" height="50" />
+  <img src="assets/icons/socketio.png" alt="Socket.IO" width="50" height="50" />
+  <img src="assets/icons/framer.png" alt="Framer Motion" width="50" height="50" />
+  <img src="assets/icons/threejs.png" alt="Three.js" width="50" height="50" />
+  <img src="assets/icons/tailwind.png" alt="Tailwind CSS" width="50" height="50" />
+  <img src="assets/icons/shadcn.png" alt="ShadCN" width="50" height="50" />
+  <img src="assets/icons/oracle.png" alt="Oracle" width="50" height="50" />
+  <img src="assets/icons/visualstudio.png" alt="Visual Studio" width="50" height="50" />
+  <img src="assets/icons/vscode.png" alt="VS Code" width="50" height="50" />
+  <img src="assets/icons/eclipse.png" alt="Eclipse" width="50" height="50" />
+  <img src="assets/icons/svgrepo.png" alt="SVG Repo" width="50" height="50" />
+  <img src="assets/icons/fontawesome.png" alt="FontAwesome" width="50" height="50" />
 </p>
+
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
