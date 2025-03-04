@@ -76,6 +76,7 @@
 
 <h1 align="center">
    🛠️ Tech Stacks  
+   <br><br>
 </h1>
 
 <div align="center">
