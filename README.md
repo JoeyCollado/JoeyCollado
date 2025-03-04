@@ -55,42 +55,62 @@
 ## 🛠️ Tech Stacks
 
 <p align="center" class="tech-stack>
-  <img src="assets/icons/nodeJs.png" alt="Node JS" title="Node JS" width="50" height="50" />
-  <img src="assets/icons/expressJs.png" alt="Express JS" title="Express JS" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" width="50" height="50" />
-  <img src="assets/icons/tailwindcss.png" alt="Tailwind CSS" title="Tailwind CSS" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" title="Javascript" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" title="Typescript" width="50" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" title="React JS" width="50" height="50" />
-  <img src="assets/icons/shadcn.png" alt="Shad CN" title="Shad CN" width="50" height="50" />
-  <img src="assets/icons/nextjs.png" alt="Next JS" title="Next JS" width="50" height="50" />
-  <img src="assets/icons/framerMotion.png" alt="Framer Motion" title="Framer Motion" width="50" height="50" />
-  <img src="assets/icons/threeJs.png" alt="Three JS" title="Three JS" width="50" height="50" />
-  <img src="assets/icons/mysql.png" alt="MySQL" title="MySQL" width="50" height="50" />
-  <img src="assets/icons/prisma.png" alt="Prisma" title="Prisma" width="50" height="50" />
-  <img src="assets/icons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" width="50" height="50" />
-  <img src="assets/icons/clerk.png" alt="Clerk" title="Clerk" width="50" height="50" />
-  <img src="assets/icons/python.png" alt="Python" title="Python" width="50" height="50" />
-  <img src="assets/icons/visualbasic.png" alt="Visual Basic" title="Visual Basic" width="50" height="50" />
-  <img src="assets/icons/visualstudiocode.png" alt="Visual Studio Code" title="Visual Studio Code" width="50" height="50" />
-  <img src="assets/icons/visualstudio.png" alt="Visual Studio" title="Visual Studio" width="50" height="50" />
-  <img src="assets/icons/eclipse.png" alt="Eclipse" title="Eclipse" width="50" height="50" />
-  <img src="assets/icons/oracle.png" alt="Oracle" title="Oracle" width="50" height="50" />
-  <img src="assets/icons/figma.png" alt="Figma" title="Figma" width="50" height="50" />
-  <img src="assets/icons/openai.png" alt="Open AI" title="Open AI" width="50" height="50" />
-  <img src="assets/icons/deepseek.png" alt="DeepSeek" title="DeepSeek" width="50" height="50" />
-  <img src="assets/icons/chatgpt.png" alt="Chat GPT" title="Chat GPT" width="50" height="50" />
-  <img src="assets/icons/copilot.png" alt="Copilot" title="Copilot" width="50" height="50" />
-  <img src="assets/icons/leaflet.png" alt="Leaflet" title="Leaflet" width="50" height="50" />
-  <img src="assets/icons/socketio.png" alt="Socket IO" title="Socket IO" width="50" height="50" />
-  <img src="assets/icons/fontawesome.png" alt="Fontawesome" title="Fontawesome" width="50" height="50" />
-  <img src="assets/icons/svgrepo.png" alt="SVG Repo" title="SVG Repo" width="50" height="50" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github" title="Github" width="50" height="50" />
-  <img src="assets/icons/git.png" alt="Git" title="Git" width="50" height="50" />
-  <img src="assets/icons/vercel.png" alt="Vercel" title="Vercel" width="50" height="50" />
-  <img src="assets/icons/gitbash.png" alt="Git Bash" title="Git Bash" width="50" height="50" />
+ ## 🛠️ Tech Stacks  
+
+### 🚀 Frontend Development  
+![HTML](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
+![ShadCN](https://img.shields.io/badge/ShadCN-%23BBDEFB?style=for-the-badge&logo=shadcn&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-%23FF0050?style=for-the-badge&logo=framer&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-%23000000?style=for-the-badge&logo=three.js&logoColor=white)
+
+### ⚙️ Backend Development  
+![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=socket.io&logoColor=white)
+
+### 🛢️ Databases & ORM  
+![MySQL](https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-%23000000?style=for-the-badge&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white)
+
+### 🖥️ Development Tools & IDEs  
+![Visual Studio Code](https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
+![Visual Basic](https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=visualbasic&logoColor=white)
+
+### 🌎 Cloud & Deployment  
+![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+### 🔧 Version Control & Collaboration  
+![Git](https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)
+![Git Bash](https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=gitbash&logoColor=white)
+
+### 🎨 UI/UX & Design Tools  
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![SVG Repo](https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white)
+
+### 🤖 AI & Machine Learning  
+![OpenAI](https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-%2300A67E?style=for-the-badge&logo=chatgpt&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/Copilot-%23181717?style=for-the-badge&logo=githubcopilot&logoColor=white)
+
+### 🗺️ Geospatial & Mapping  
+![Leaflet](https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white)
+
 </p>
 
 ## 🌟 Fun Facts & Achievements  
