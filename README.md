@@ -150,9 +150,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-<p align="center">
+<h1 align="center">
    🌟 Fun Facts & Achievements  
-</p>
+</h1>
 
 ✨ **Fun Facts**:  
 - 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.  
