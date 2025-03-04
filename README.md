@@ -25,7 +25,7 @@
 </p>
 
 <h1 align="center">
-   🌟 Achievements
+   🌟 Trophies
    <br><br>
 </h1>
 
