@@ -36,7 +36,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🌟 About Me  
+<p align="center">
+🌟 About Me  
+</p>
 
 - 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.
 - 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.
