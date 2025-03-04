@@ -54,11 +54,10 @@
 
 ## 🛠️ Tech Stacks  
 
-## 🛠️ Tech Stacks  
-
 <div align="center">
 
 ### 🚀 Frontend Development  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/TailwindCSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
@@ -69,48 +68,63 @@
 <img src="https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Framer_Motion-%23FF0050?style=for-the-badge&logo=framer&logoColor=white" />
 <img src="https://img.shields.io/badge/Three.js-%23000000?style=for-the-badge&logo=three.js&logoColor=white" />
+</marquee>
 
 ### ⚙️ Backend Development  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Express.js-%23000000?style=for-the-badge&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white" />
 <img src="https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=socket.io&logoColor=white" />
+</marquee>
 
 ### 🛢️ Databases & ORM  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Prisma-%23000000?style=for-the-badge&logo=prisma&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 <img src="https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white" />
+</marquee>
 
 ### 🖥️ Development Tools & IDEs  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
 <img src="https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
-
-### 🌎 Cloud & Deployment  
-<img src="https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</marquee>
 
 ### 🔧 Version Control & Collaboration  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=git&logoColor=white" />
+</marquee>
 
 ### 🎨 UI/UX & Design Tools  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 <img src="https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" />
 <img src="https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white" />
+</marquee>
 
 ### 🤖 AI & Machine Learning  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white" />
 <img src="https://img.shields.io/badge/ChatGPT-%2300A67E?style=for-the-badge&logo=chatgpt&logoColor=white" />
 <img src="https://img.shields.io/badge/Copilot-%23181717?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+</marquee>
 
 ### 🗺️ Geospatial & Mapping  
+<marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white" />
+</marquee>
+
+</div>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
