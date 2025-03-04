@@ -66,7 +66,7 @@
 
 ## 🛠️ Tech Stacks
 
-<p align="center">
+<p align="center" class="tech-stack>
   <img src="assets/icons/nodeJs.png" alt="Node JS" title="Node JS" width="50" height="50" />
   <img src="assets/icons/expressJs.png" alt="Express JS" title="Express JS" width="50" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" width="50" height="50" />
@@ -104,10 +104,6 @@
   <img src="assets/icons/vercel.png" alt="Vercel" title="Vercel" width="50" height="50" />
   <img src="assets/icons/gitbash.png" alt="Git Bash" title="Git Bash" width="50" height="50" />
 </p>
-
-
-
-
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
