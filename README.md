@@ -209,7 +209,6 @@
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
@@ -226,3 +225,7 @@
 <p align="center">
   ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
 </p>
+
+<div align="center">
+     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" />
+</div>
