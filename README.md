@@ -50,7 +50,9 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🌐 Connect with Me  
+<p align="center">
+   🌐 Connect with Me  
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/joey-aibert-collado-8a4a46282/" target="_blank">
