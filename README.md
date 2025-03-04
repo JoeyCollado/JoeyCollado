@@ -2,6 +2,10 @@
    Joey Aibert U. Collado 
 </h1>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
+</p>
+
 <h3 align="center" style="color: #1c6e8c;">
   💻 Full-Stack Web Developer | 💻 Skilled Front-End Developer
 </h3>
@@ -10,8 +14,13 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&color=%230e75b6&size=22&center=true&vCenter=true&width=500&height=50&lines=Full-Stack+Web+Developer.;Skilled+Front-End+Developer.;Creating+Awesome+Web+Experiences.;" alt="Typing SVG" />
 </p>
 
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
 <p align="center">
@@ -158,6 +167,10 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=joeycollado&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
 <div align="center">
