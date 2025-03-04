@@ -29,7 +29,7 @@
 <br><br>
 
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=0D47A1,42A5F5&height=20&width=100%" alt="Blue Gradient Divider">
 </p>
 
 <h1 align="center" style="color: blue;">
