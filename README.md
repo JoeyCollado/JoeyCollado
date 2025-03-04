@@ -99,10 +99,6 @@
    <br><br>
 </h1>
 
-
-<table align="center">
-  <tr>
-    <td>
 <div align="center">
 
 ### 🚀 Frontend Development  
