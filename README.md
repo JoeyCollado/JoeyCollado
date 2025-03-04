@@ -79,7 +79,7 @@
   <img src="assets/icons/shadcn.png" alt="Shad CN" width="50" height="50" />
   <img src="assets/icons/nextjs.png" alt="Next JS" width="50" height="50" />
   <img src="assets/icons/framerMotion.png" alt="Framer Motion" width="50" height="50" />
-  <img src="assets/icons/threeJS.png" alt="Three JS" width="50" height="50" />
+  <img src="assets/icons/threeJs.png" alt="Three JS" width="50" height="50" />
   <img src="assets/icons/mysql.png" alt="MySQL" width="50" height="50" />
   <img src="assets/icons/react_icon.png" alt="React JS" width="50" height="50" />
   <img src="assets/icons/prisma.png" alt="Prisma" width="50" height="50" />
