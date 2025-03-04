@@ -23,6 +23,8 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
 </p>
 
+
+
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
@@ -33,9 +35,9 @@
 </h1>
 
 
-
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+   <br><br>
 </div>
 
 <p align="center">
