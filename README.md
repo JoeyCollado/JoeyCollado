@@ -144,19 +144,3 @@
 <p align="center">
   ✨ Thank you for visiting my profile! If you like what you see, let's connect and create something together! 😊
 </p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical&langs_count=10" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
-</p>
-
-<p align="center">
-  ✨ Thank you for visiting my profile! If you like what you see, let's connect and create something together! 😊
-</p>
