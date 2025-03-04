@@ -226,6 +226,8 @@
   ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
 </p>
 
+<br><br>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&width=100%" alt="Blue Wave Effect" />
 </div>
