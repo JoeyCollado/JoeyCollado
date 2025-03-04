@@ -52,64 +52,62 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-## 🛠️ Tech Stacks
-
-<p align="center" class="tech-stack>
- ## 🛠️ Tech Stacks  
+## 🛠️ Tech Stacks  
 
 ### 🚀 Frontend Development  
-![HTML](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
-![ShadCN](https://img.shields.io/badge/ShadCN-%23BBDEFB?style=for-the-badge&logo=shadcn&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-%23FF0050?style=for-the-badge&logo=framer&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-%23000000?style=for-the-badge&logo=three.js&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=gray)
+![CSS](https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=gray)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=gray)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=gray)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=gray)
+![React](https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=gray)
+![ShadCN](https://img.shields.io/badge/ShadCN-%23BBDEFB?style=for-the-badge&logo=shadcn&logoColor=black&labelColor=gray)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=gray)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-%23FF0050?style=for-the-badge&logo=framer&logoColor=white&labelColor=gray)
+![Three.js](https://img.shields.io/badge/Three.js-%23000000?style=for-the-badge&logo=three.js&logoColor=white&labelColor=gray)
 
 ### ⚙️ Backend Development  
-![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=socket.io&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=gray)
+![Express.js](https://img.shields.io/badge/Express.js-%23000000?style=for-the-badge&logo=express&logoColor=white&labelColor=gray)
+![Python](https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=gray)
+![Java](https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=gray)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=socket.io&logoColor=white&labelColor=gray)
 
 ### 🛢️ Databases & ORM  
-![MySQL](https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-%23000000?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Clerk](https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=gray)
+![Prisma](https://img.shields.io/badge/Prisma-%23000000?style=for-the-badge&logo=prisma&logoColor=white&labelColor=gray)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=gray)
+![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=gray)
+![Clerk](https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white&labelColor=gray)
 
 ### 🖥️ Development Tools & IDEs  
-![Visual Studio Code](https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
-![Visual Basic](https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=visualbasic&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=gray)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white&labelColor=gray)
+![Eclipse](https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white&labelColor=gray)
+![Visual Basic](https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=visualbasic&logoColor=white&labelColor=gray)
 
 ### 🌎 Cloud & Deployment  
-![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=gray)
 
 ### 🔧 Version Control & Collaboration  
-![Git](https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)
-![Git Bash](https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=gitbash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=gray)
+![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white&labelColor=gray)
+![Git Bash](https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=gitbash&logoColor=white&labelColor=gray)
 
 ### 🎨 UI/UX & Design Tools  
-![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![FontAwesome](https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
-![SVG Repo](https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=gray)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white&labelColor=gray)
+![SVG Repo](https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white&labelColor=gray)
 
 ### 🤖 AI & Machine Learning  
-![OpenAI](https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-%2300A67E?style=for-the-badge&logo=chatgpt&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/Copilot-%23181717?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white&labelColor=gray)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white&labelColor=gray)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-%2300A67E?style=for-the-badge&logo=chatgpt&logoColor=white&labelColor=gray)
+![GitHub Copilot](https://img.shields.io/badge/Copilot-%23181717?style=for-the-badge&logo=githubcopilot&logoColor=white&labelColor=gray)
 
 ### 🗺️ Geospatial & Mapping  
-![Leaflet](https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white&labelColor=gray)
+
 
 </p>
 
