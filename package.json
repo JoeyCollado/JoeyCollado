@@ -1,0 +1,15 @@
+{
+  "name": "joeycollado",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\" style=\"color: #0e75b6;\">\r    \"Joey Aibert U. Collado\" \r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.0.9"
+  }
+}
