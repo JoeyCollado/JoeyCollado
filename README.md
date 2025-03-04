@@ -214,8 +214,6 @@
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" width="100%" />
 </p>
 
-//<img src="YOUR_GIF_URL_HERE" width="500" alt="Coding Animation">
-
 
 <p align="center">
   ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
