@@ -56,6 +56,8 @@
 - 🎯 Constantly learning **new web technologies** to stay ahead in the game.
 - 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
+  <br><br>
+
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
