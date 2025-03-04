@@ -1,6 +1,5 @@
-
 <h1 align="center" style="color: #0e75b6;">
-   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width=100%" alt="Wave Effect" /><br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&width=100%" alt="Blue Wave Effect" /><br>
    Joey Aibert U. Collado 
    <br><br>
 </h1>
