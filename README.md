@@ -84,11 +84,17 @@
    <br><br>
 </h1>
 
-- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.
-- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.
-- 🏆 Active in **open-source contributions**, helping improve the tech community.
-- 🎯 Constantly learning **new web technologies** to stay ahead in the game.
-- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
+<table align="center">
+  <tr>
+    <td>
+- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.<br>
+- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.<br>
+- 🏆 Active in **open-source contributions**, helping improve the tech community.<br>
+- 🎯 Constantly learning **new web technologies** to stay ahead in the game.<br>
+- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)<br>
+    </td>
+  </tr>
+</table>
 
   <br>
 
@@ -127,7 +133,6 @@
 </h1>
 
 <div align="center">
-
 ### 🚀 Frontend Development  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" />
