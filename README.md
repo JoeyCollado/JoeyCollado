@@ -1,10 +1,25 @@
+
+
+<table align="center">
+  <tr>
+    <td>
 <h1 align="center" style="color: #0e75b6;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" /><br>
-   Joey Aibert U. Collado 
+   Joey Aibert U. Collado<br>
+▁ ▂ ▄ ▅ ▆ ▇ █ Programmer █ ▇ ▆ ▅ ▄ ▂ ▁
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
+  
+</p>
+    </td>
+  </tr>
+</table>
 
+<br>
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
@@ -12,6 +27,7 @@
 
 <h2 align="center" style="color: #1c6e8c;">
   💻 Full-Stack Web Developer | 💻 Skilled Front-End Developer
+  <br><br>
 </h2>
 
 <p align="center">
@@ -22,9 +38,15 @@
   <img src="https://komarev.com/ghpvc/?username=joeycollado&label=Profile%20views&color=0e75b6&style=flat" alt="joeycollado" />
 </p>
 
+<table align="center">
+  <tr>
+    <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
 </p>
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
@@ -34,14 +56,24 @@
 
 <h1 align="center" style="color: blue;">
    🌟 Trophies
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
+<table align="center">
+  <tr>
+    <td>
+      <br>
+<p align="center">
+<img 
+    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10&cache=1710000000" 
+    alt="GitHub Trophies"
+  />
+</p><br>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-   <br><br>
-</div>
 
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
@@ -49,16 +81,24 @@
 
 <h1 align="center">
 🌟 About Me  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
-- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.
-- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.
-- 🏆 Active in **open-source contributions**, helping improve the tech community.
-- 🎯 Constantly learning **new web technologies** to stay ahead in the game.
-- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
+<table align="center">
+  <tr>
+    <td>
+      <br>
+🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.<br><br>
+💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.<br><br>
+🏆 Active in **open-source contributions**, helping improve the tech community.<br><br>
+🎯 Constantly learning **new web technologies** to stay ahead in the game.<br><br>
+📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)<br><br>
+    </td>
+  </tr>
+</table>
 
-  <br><br>
+  <br>
 
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
@@ -66,6 +106,7 @@
 
 <h1 align="center">
    🌐 Connect with Me  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
@@ -89,11 +130,12 @@
 
 <h1 align="center">
    🛠️ Tech Stacks  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
 <div align="center">
-
+  
 ### 🚀 Frontend Development  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -170,6 +212,7 @@
 
 <h1 align="center">
    🌟 Fun Facts & Achievements  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
@@ -190,46 +233,90 @@
 </p>
 
 <h1 align="center">
-    📊 GitHub Stats  
-   <br><br>
+  📊 GitHub Stats
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
 </h1>
 
+<table align="center">
+  <tr>
+    <td>
+      <br>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical&langs_count=10" alt="Top Languages" />
-</p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages" width="100%">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=joeycollado&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  </picture>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
 </div>
+<br>
+</td>
+</tr>
+</table>
 
+<br><br>
+
+
+<table align="center">
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+        <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
+<br>
+
+<!-- Cool Divider -->
+<table align="center">
+  <tr>
+    <td>
+      <br>
 <p align="center">
-  ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=500&color=00A2FF&center=true&width=435&lines=Thanks+for+visiting!+🚀;Follow+for+more+cool+projects!+💙;Let%27s+build+something+together!+😊">
 </p>
 
-<br><br>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=🚀%20Let's%20Connect!%20🚀&fontColor=00A2FF&height=100&section=footer"/>
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/icons/blue_fire_divider.gif" alt="Blue Fire Divider">
+  <a href="https://github.com/JoeyCollado" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/joey-aibert-collado-8a4a46282/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:akosijoeyaibertcollado@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+  </a>
+ <a href="https://www.facebook.com/joeyaibert31/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+  </a>
+  
+  ![divider](https://capsule-render.vercel.app/api?type=waving&color=00A2FF&height=120&section=footer)
 </p>
+</td>
+</tr>
+</table>
+
+
+
 
