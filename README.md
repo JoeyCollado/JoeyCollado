@@ -98,7 +98,7 @@
 
 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
-<br><br>
+<br>
     </td>
   </tr>
 </table>
