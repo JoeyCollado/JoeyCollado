@@ -211,17 +211,14 @@
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<h1 align="center">
-    📊 GitHub Stats  
-   <br><br>
-</h1>
+<h1 align="center">📊 GitHub Stats</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical&langs_count=10" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=ocean_dark&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10" alt="Top Languages" />
 </p>
 
 <div align="center">
