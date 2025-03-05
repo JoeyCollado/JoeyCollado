@@ -65,11 +65,9 @@
     <td>
       <br>
 <p align="center">
-<img 
-    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10&cache=1710000000" 
-    alt="GitHub Trophies"
-  />
-</p><br>
+  <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10&cache=1700000000" alt="GitHub Trophies" />
+</p>
+<br>
     </td>
   </tr>
 </table>
