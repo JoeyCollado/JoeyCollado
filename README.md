@@ -257,7 +257,7 @@
 
 <!-- Cool Divider -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
 </p>
 
 
