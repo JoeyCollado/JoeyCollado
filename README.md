@@ -246,9 +246,11 @@
 
 <br><br>
 
+<!-- Cool Divider -->
 <p align="center">
-  <img src="https://github.com/JoeyCollado/JoeyCollado/blob/main/assets/icons/bluefire.gif?raw=true" alt="Blue Fire Divider" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=100&section=footer"/>
 </p>
+
 
 
 
