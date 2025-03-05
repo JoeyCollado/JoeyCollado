@@ -61,13 +61,13 @@
 </h1>
 
 
-<div align="center">
-<img 
-    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=dracula&column=6&margin-w=10&margin-h=10" 
+<p align="center">
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=6&margin-w=10&margin-h=10" 
     alt="GitHub Trophies"
-  />   
-  <br><br>
-</div>
+  />
+</p>
+
 
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
