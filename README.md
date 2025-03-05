@@ -63,10 +63,11 @@
 
 <p align="center">
   <img 
-    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=6&margin-w=10&margin-h=10" 
+    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10" 
     alt="GitHub Trophies"
   />
 </p>
+
 
 
 <p align="center">
