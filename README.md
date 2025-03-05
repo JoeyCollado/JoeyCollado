@@ -213,6 +213,10 @@
 
 <h1 align="center">📊 GitHub Stats</h1>
 
+<table align="center">
+  <tr>
+    <td>
+      <br>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF" alt="GitHub Stats" />
 </p>
@@ -224,6 +228,10 @@
 <div align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
 </div>
+
+</td>
+</tr>
+</table>
 
 <br><br>
 
