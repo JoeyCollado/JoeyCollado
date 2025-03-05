@@ -291,10 +291,9 @@
  <a href="https://www.facebook.com/joeyaibert31/" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
   </a>
+  
+  ![divider](https://capsule-render.vercel.app/api?type=waving&color=00A2FF&height=90&section=footer)
 </p>
-
-![divider](https://capsule-render.vercel.app/api?type=waving&color=00A2FF&height=90&section=footer)
-
 </td>
 </tr>
 </table>
