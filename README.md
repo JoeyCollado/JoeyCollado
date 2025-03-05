@@ -1,3 +1,4 @@
+
 <table align="center">
   <tr>
     <td>
@@ -11,6 +12,7 @@
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
+  
 </p>
     </td>
   </tr>
@@ -290,6 +292,8 @@
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
   </a>
 </p>
+
+![divider](https://capsule-render.vercel.app/api?type=waving&color=00A2FF&height=90&section=footer)
 
 </td>
 </tr>
