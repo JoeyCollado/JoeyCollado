@@ -269,7 +269,7 @@
   <tr>
     <td>
       <br>
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬" />
+▂▃▅▇█▓▒░ 𝙁𝙐𝙏𝙐𝙍𝙀 𝙀𝙉𝙂𝙄𝙉𝙀 ░▒▓█▇▅▃▂
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=500&color=00A2FF&center=true&width=435&lines=Thanks+for+visiting!+🚀;Follow+for+more+cool+projects!+💙;Let%27s+build+something+together!+😊">
 </p>
