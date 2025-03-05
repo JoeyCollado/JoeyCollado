@@ -5,7 +5,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" /><br>
    Joey Aibert U. Collado<br>
 ▁ ▂ ▄ ▅ ▆ ▇ █ Programmer █ ▇ ▆ ▅ ▄ ▂ ▁
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
@@ -20,7 +20,6 @@
 <p align="center">
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
 
 
 <h2 align="center" style="color: #1c6e8c;">
