@@ -257,7 +257,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=🚀%20Thanks%20for%20Visiting!%20🚀&fontColor=00A2FF&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=🚀%20Let's%20Connect!%20🚀&fontColor=00A2FF&height=100&section=footer"/>
 </p>
 
 
