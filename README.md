@@ -267,6 +267,7 @@
 <table align="center">
   <tr>
     <td>
+      <br>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=500&color=00A2FF&center=true&width=435&lines=Thanks+for+visiting!+🚀;Follow+for+more+cool+projects!+💙;Let%27s+build+something+together!+😊">
 </p>
