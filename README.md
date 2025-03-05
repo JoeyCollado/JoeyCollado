@@ -249,10 +249,6 @@
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<p align="center">
-  ✨ Thanks for visiting! If you like my work, let's build something awesome together! 😊  
-</p>
-
 <br><br>
 
 <!-- Cool Divider -->
