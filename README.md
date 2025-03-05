@@ -4,7 +4,7 @@
 <h1 align="center" style="color: #0e75b6;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" /><br>
    Joey Aibert U. Collado<br>
-  ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░
+  ▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬
    <br><br>
 </h1>
     </td>
@@ -12,8 +12,9 @@
 </table>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:f702b3,100:4100f5&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
 </p>
+
 
 
 
