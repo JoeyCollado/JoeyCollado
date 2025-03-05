@@ -246,7 +246,7 @@
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<br><br>
+<br>
 
 <!-- Cool Divider -->
 <table align="center">
