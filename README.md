@@ -260,7 +260,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=500&color=00A2FF&center=true&width=435&lines=Thanks+for+visiting!+🚀;Follow+for+more+cool+projects!+💙">
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00A2FF&center=true&vCenter=true&width=500&lines=System+Shutdown...;Goodbye!+👋">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=🚀%20Thanks%20for%20Visiting!%20🚀&fontColor=00A2FF&height=100&section=footer"/>
 </p>
 
 
