@@ -60,14 +60,18 @@
    <br><br>
 </h1>
 
-
+<table align="center">
+  <tr>
+    <td>
 <p align="center">
   <img 
     src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10" 
     alt="GitHub Trophies"
   />
 </p>
-
+    </td>
+  </tr>
+</table>
 
 
 <p align="center">
