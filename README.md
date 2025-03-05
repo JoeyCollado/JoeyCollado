@@ -62,8 +62,11 @@
 
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=onestar&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-   <br><br>
+<img 
+    src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=dracula&column=6&margin-w=10&margin-h=10" 
+    alt="GitHub Trophies"
+  />   
+  <br><br>
 </div>
 
 <p align="center">
