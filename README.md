@@ -8,13 +8,15 @@
 
    <br><br>
 </h1>
-    </td>
-  </tr>
-</table>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
 </p>
+    </td>
+  </tr>
+</table>
+
+
 
 
 
