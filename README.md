@@ -227,10 +227,13 @@
 <table align="center">
   <tr>
     <td>
-      <img src="https://streak-stats.demolab.com?user=joeycollado&theme=radical&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
     </td>
   </tr>
 </table>
+
+
+
 
 <table align="center">
   <tr>
@@ -286,6 +289,5 @@
 </table>
 
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=JoeyCollado&theme=blue-green)
 
 
