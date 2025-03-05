@@ -87,11 +87,12 @@
 <table align="center">
   <tr>
     <td>
-- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.<br>
-- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.<br>
-- 🏆 Active in **open-source contributions**, helping improve the tech community.<br>
-- 🎯 Constantly learning **new web technologies** to stay ahead in the game.<br>
-- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)<br>
+      <br>
+- 🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.<br><br>
+- 💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.<br><br>
+- 🏆 Active in **open-source contributions**, helping improve the tech community.<br><br>
+- 🎯 Constantly learning **new web technologies** to stay ahead in the game.<br><br>
+- 📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)<br><br>
     </td>
   </tr>
 </table>
