@@ -252,6 +252,9 @@
 <br><br>
 
 <!-- Cool Divider -->
+<table align="center">
+  <tr>
+    <td>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=4000&pause=500&color=00A2FF&center=true&width=435&lines=Thanks+for+visiting!+🚀;Follow+for+more+cool+projects!+💙;Let%27s+build+something+together!+😊">
 </p>
@@ -259,6 +262,9 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=🚀%20Let's%20Connect!%20🚀&fontColor=00A2FF&height=100&section=footer"/>
 </p>
+</td>
+</tr>
+</table>
 
 
 
