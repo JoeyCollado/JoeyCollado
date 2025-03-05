@@ -224,13 +224,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&locale=en&layout=compact&theme=radical&langs_count=10" alt="Top Languages" />
 </p>
 
-<table align="center">
-  <tr>
-    <td>
+<div align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
-    </td>
-  </tr>
-</table>
+</div>
 
 
 
