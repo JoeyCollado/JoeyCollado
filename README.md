@@ -53,6 +53,7 @@
 
 <h1 align="center" style="color: blue;">
    🌟 Trophies
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
 
