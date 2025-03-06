@@ -259,10 +259,11 @@
 </marquee>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/gif_Animation_Dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="/assets/gif_Animation_White.gif">
-  <img align="left" alt="GIF description" src="/assets/_Animation_White.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/gif/Skills_Animation_Dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/gif/Skills_Animation_White.gif">
+  <img align="left" alt="GIF description" src="/assets/gif/Skills_Animation_White.gif">
 </picture>
+
 
 <br><br>
 </div>
