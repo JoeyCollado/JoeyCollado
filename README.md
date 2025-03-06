@@ -286,32 +286,6 @@
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-## 📜 Certifications 📜  
-
-<div align="center">
-
-🔹 [SQL and Relational Databases 101 (CognitiveClass.ai)](https://courses.cognitiveclass.ai/certificates/301bc038c75a409da82c659fc04a1658)  
-<a href="https://courses.cognitiveclass.ai/certificates/301bc038c75a409da82c659fc04a1658" target="_blank">
-   <img src="https://img.shields.io/badge/SQL%20and%20Relational%20Databases%20101-CognitiveClass.ai-blue?style=for-the-badge" alt="SQL and Relational Databases 101 Certificate"/>
-</a>  
-
-🔹 [Oracle Cloud Infrastructure 2024 Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D02388DE29AB71C7DBBBA4944DB984172534)  
-<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D02388DE29AB71C7DBBBA4944DB984172534" target="_blank">
-   <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20Certified%20Foundations%20Associate-Oracle-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
-</a>  
-
-🔹 [Oracle Cloud Infrastructure 2024 Data Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D023FCEAAF81E80FCF7D411C649A6A4D7266)  
-<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D023FCEAAF81E80FCF7D411C649A6A4D7266" target="_blank">
-   <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20Data%20Certified%20Foundations%20Associate-Oracle-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
-</a>  
-
-🔹 [Oracle Cloud Infrastructure 2024 AI Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E)  
-<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E" target="_blank">
-   <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20AI%20Certified%20Foundations%20Associate-Oracle-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
-</a>  
-
-</div>
-
 
 <h1 align="center">
   📊 GitHub Stats
