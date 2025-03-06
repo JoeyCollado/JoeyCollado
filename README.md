@@ -108,7 +108,7 @@
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<h2 align="center">📜 Certifications </h2>
+<h1 align="center">📜 Certifications </h1>
 
 <div align="center">
    <a href="https://courses.cognitiveclass.ai/certificates/301bc038c75a409da82c659fc04a1658" target="_blank">
