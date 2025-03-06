@@ -240,6 +240,8 @@
 - 🥇 **Top Contributor** in various GitHub repositories.  
 - 🌍 Built and launched multiple **production-level web apps**.  
 - 🏆 **Hackathon Champion** in web development competitions.
+
+  <br>
   </td>
   </tr>
   </table>
