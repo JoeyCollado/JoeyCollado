@@ -1,4 +1,3 @@
-![Skills_Animation_White](https://github.com/user-attachments/assets/62102f0a-3252-440e-8634-a31471efcb5a)
 <table align="center">
   <tr>
     <td>
