@@ -320,9 +320,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
 </h1>
 
-<table align="center">
+<table align="center" width="90%" border="2">
   <tr>
-    <td>
+    <td align="center">
       <br>
 <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats" width="100%">
@@ -346,9 +346,6 @@
   </a>
 </div>
 
-
-
-      
 <br>
 </td>
 </tr>
