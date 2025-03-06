@@ -225,6 +225,7 @@
 <table align="center">
   <tr>
     <td>
+      
 ✨ **Fun Facts**:  
 
 - 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.  
