@@ -117,7 +117,9 @@
 <div align="center">
   
   <br>
-  
+  <table align="center">
+  <tr>
+    <td>
   <a href="assets/cert/LivingInTheIT.png" target="_blank">
    <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
    </a>
@@ -137,6 +139,9 @@
     <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E" target="_blank">
    <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="Placeholder"/>
    </a>
+    </td>
+  </tr>
+  </table>
 
   <br><br>
 </div>
