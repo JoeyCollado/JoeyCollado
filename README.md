@@ -118,7 +118,7 @@
   
   <br>
   
-  <a href="assets/certs/LivingInTheIt.png" target="_blank">
+  <a href="assets/certs/LivingInTheIT.png" target="_blank">
    <img src="https://img.shields.io/badge/SQL%20and%20Relational%20Databases%20101-CognitiveClass.ai-blue?style=for-the-badge" alt="SQL and Relational Databases 101 Certificate"/>
    </a>
     <br><br>
