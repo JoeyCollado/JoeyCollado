@@ -127,7 +127,7 @@
    </a>
    <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D023FCEAAF81E80FCF7D411C649A6A4D7266" target="_blank">
-   <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20Data%20Certified%20Foundations%20Associate-Oracle-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
+   <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20Data%20Certified%20Foundations%20Associate-ICCT.Colleges-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
    </a>
    <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E" target="_blank">
