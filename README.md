@@ -1,4 +1,4 @@
-
+![Skills_Animation_White](https://github.com/user-attachments/assets/62102f0a-3252-440e-8634-a31471efcb5a)
 <table align="center">
   <tr>
     <td>
@@ -257,6 +257,13 @@
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white" />
 </marquee>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/gif_Animation_Dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="/assets/gif_Animation_White.gif">
+  <img align="left" alt="GIF description" src="/assets/_Animation_White.gif">
+</picture>
+
 <br><br>
 </div>
 
