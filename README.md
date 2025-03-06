@@ -134,7 +134,7 @@
    <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%202024%20AI%20Certified%20Foundations%20Associate-Oracle-blue?style=for-the-badge" alt="Oracle Cloud Infrastructure 2024 Certified Foundations Associate"/>
    </a>
 
-   <br>
+   <br><br>
 </div>
 
 <br>
