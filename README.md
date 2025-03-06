@@ -225,6 +225,7 @@
 <table align="center">
   <tr>
     <td>
+    <br>
       
 ✨ **Fun Facts**:  
 
