@@ -118,7 +118,7 @@
   
   <br>
   
-  <a href="assets/cert/LivingInTheIT.png" target="blank">
+  <a href="assets/cert/LivingInTheIT.png" target="_blank">
    <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
    </a>
     <br><br>
