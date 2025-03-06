@@ -221,6 +221,10 @@
    <br><br>
 </h1>
 
+
+<table align="center">
+  <tr>
+    <td>
 ✨ **Fun Facts**:  
 - 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.  
 - 🏗️ Love experimenting with **3D elements and animations** in web apps.  
@@ -229,7 +233,10 @@
 🏆 **Achievements**:  
 - 🥇 **Top Contributor** in various GitHub repositories.  
 - 🌍 Built and launched multiple **production-level web apps**.  
-- 🏆 **Hackathon Champion** in web development competitions.
+- 🏆 **Hackathon Champion** in web development competitions.d
+  </td>
+  </tr>
+  </table>
 
   <br><br>
 
