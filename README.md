@@ -119,7 +119,7 @@
   <br>
   
   <a href="assets/cert/LivingInTheIT.png" target="_blank">
-   <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
+   <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
    </a>
     <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D02388DE29AB71C7DBBBA4944DB984172534" target="_blank">
