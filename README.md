@@ -119,7 +119,7 @@
   <br>
   
   <a href="assets/cert/LivingInTheIT.png" target="_blank">
-   <img src="https://img.shields.io/badge/SQL%20and%20Relational%20Databases%20101-CognitiveClass.ai-blue?style=for-the-badge" alt="SQL and Relational Databases 101 Certificate"/>
+   <img src="https://img.shields.io/badge/SQL%20and%20Relational%20Databases%20101-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
    </a>
     <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D02388DE29AB71C7DBBBA4944DB984172534" target="_blank">
