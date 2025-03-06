@@ -257,11 +257,11 @@
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white" />
 </marquee>
-
+<br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/assets/gif/Skills_Animation_Dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="/assets/gif/Skills_Animation_White.gif">
-  <img align="left" alt="GIF description" src="/assets/gif/Skills_Animation_White.gif">
+  <img alt="GIF description" src="/assets/gif/Skills_Animation_Dark.gif">
 </picture>
 
 
