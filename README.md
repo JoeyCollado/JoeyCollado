@@ -110,6 +110,8 @@
 
 <h1 align="center">📜 Certifications </h1>
 
+<br>
+
 <div align="center">
   
   <br>
