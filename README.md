@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/392e5050-0c76-42d4-bada-9afdc263cc5d)
 
 <table align="center">
   <tr>
