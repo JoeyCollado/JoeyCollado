@@ -183,7 +183,7 @@
 <h1 align="center">
    🛠️ Tech Stacks  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
-   <br><br>
+   <br>
 </h1>
 
 <div align="center">
