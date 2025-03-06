@@ -325,11 +325,11 @@
     <td align="center">
       <br>
 <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats" width="80%">
+        <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats">
 </p>
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages" width="100%">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages">
 
 </p>
 
@@ -338,8 +338,8 @@
 </div>
 <br>
 <div align="center" style="max-width: 90%; padding: 10px;">
-  <a href="https://github.com/JoeyCollado">
-<img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=dark&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff" alt="Top Contributions" />
+  <a href="https://github.com/JoeyCollado"><img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=dark&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff" alt="Top Contributions" width="90%">
+
   </a>
 </div>
 
