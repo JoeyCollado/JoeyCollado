@@ -329,7 +329,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages" width="100%">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages" width="100%">
 
 </p>
 
