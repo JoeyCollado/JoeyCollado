@@ -337,11 +337,17 @@
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
 </div>
 <br>
-  <p align="center">
-        <a href="https://github.com/JoeyCollado">
-          <img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=2&theme=dark&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff" alt="Top Contributions" />
-        </a>
-      </p>
+<div align="center" style="max-width: 90%; padding: 10px;">
+  <h3 style="font-size: 1.2em; color: #00a6ff; text-align: center; word-wrap: break-word; overflow-wrap: break-word;">
+    Joey Collado's GitHub Contributor Stats
+  </h3>
+  <a href="https://github.com/JoeyCollado">
+<img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=dark&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff" alt="Top Contributions" />
+  </a>
+</div>
+
+
+
       
 <br>
 </td>
