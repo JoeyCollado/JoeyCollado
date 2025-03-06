@@ -162,6 +162,7 @@
 </h1>
 
 <p align="center">
+    <br>
   <a href="https://www.linkedin.com/in/joey-aibert-collado-8a4a46282/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
