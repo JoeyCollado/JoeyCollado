@@ -334,8 +334,11 @@
 </p>
 
 <div align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoeyCollado&theme=blue-green" alt="GitHub Streak">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=JoeyCollado&theme=black-ice&fire=14BBEB&background=45%2C000000%2C000A8E&border=FFFFFF&stroke=14BBEB&ring=14BBEB&currStreakNum=D4A017&sideNums=D4A017&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&excludeDaysLabel=FFFFFF" alt="GitHub Streak"/>
+  </a>
 </div>
+
 <br>
 <p align="center">
   <a href="https://github.com/JoeyCollado">
