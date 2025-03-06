@@ -63,7 +63,13 @@
     <td>
       <br>
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=joeycollado&theme=algolia&column=4&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+<a href="https://github.com/JoeyCollado">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=JoeyCollado&no-bg=true&row=2&column=4&margin-w=15&margin-h=15&theme=onedark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=JoeyCollado&no-bg=true&row=2&column=4&margin-w=15&margin-h=15&theme=algolia">
+    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=JoeyCollado&no-bg=true&no-frame=true&row=2&column=4&margin-w=15&margin-h=15&theme=algolia">
+  </picture>
+</a>
 </p>
 <br>
     </td>
