@@ -325,32 +325,52 @@
   <tr>
     <td align="center">
       <br>
-<p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats">
-</p>
+      <p align="center">
+        <picture>
+          <source 
+            srcset="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=light&bg_color=ffffff&title_color=0366d6&text_color=24292f&icon_color=0366d6&cache_seconds=7200" 
+            media="(prefers-color-scheme: light)">
+          <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" alt="GitHub Stats">
+        </picture>
+      </p>
 
-<p align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages">
-
-</p>
+  <p align="center">
+        <picture>
+          <source 
+            srcset="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=default&bg_color=ffffff&title_color=0366d6&text_color=24292f&icon_color=0366d6&langs_count=10&cache_seconds=7200" 
+            media="(prefers-color-scheme: light)">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" alt="Top Languages">
+        </picture>
+      </p>
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=JoeyCollado&theme=black-ice&fire=14BBEB&background=45%2C000000%2C000A8E&border=FFFFFF&stroke=14BBEB&ring=14BBEB&currStreakNum=D4A017&sideNums=D4A017&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&excludeDaysLabel=FFFFFF" alt="GitHub Streak"/>
-  </a>
-</div>
+        <a href="https://git.io/streak-stats">
+          <picture>
+            <source 
+              srcset="https://streak-stats.demolab.com?user=JoeyCollado&theme=default&fire=E44D26&background=ffffff&border=24292f&stroke=E44D26&ring=E44D26&currStreakNum=0366d6&sideNums=0366d6&currStreakLabel=24292f&sideLabels=24292f&dates=24292f&excludeDaysLabel=24292f" 
+              media="(prefers-color-scheme: light)">
+            <img src="https://streak-stats.demolab.com?user=JoeyCollado&theme=black-ice&fire=14BBEB&background=45%2C000000%2C000A8E&border=FFFFFF&stroke=14BBEB&ring=14BBEB&currStreakNum=D4A017&sideNums=D4A017&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&excludeDaysLabel=FFFFFF" alt="GitHub Streak"/>
+          </picture>
+        </a>
+      </div>
 
-<br>
-<p align="center">
-  <a href="https://github.com/JoeyCollado">
-<img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff&cache_seconds=0" alt="Top Contributions" />
-  </a>
-</p>
+   <br>
+     <p align="center">
+        <a href="https://github.com/JoeyCollado">
+          <picture>
+            <source 
+              srcset="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=github-light&show_owner=true&combine_all_yearly_contributions=false&bg_color=ffffff&title_color=0366d6&text_color=24292f&cache_seconds=0" 
+              media="(prefers-color-scheme: light)">
+            <img src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff&cache_seconds=0" alt="Top Contributions" />
+          </picture>
+        </a>
+      </p>
 
-<br>
-</td>
-</tr>
+  <br>
+ </td>
+  </tr>
 </table>
+
 
 <br><br>
 
