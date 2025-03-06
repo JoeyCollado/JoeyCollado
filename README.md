@@ -339,7 +339,7 @@
 <br>
 <p align="center">
   <a href="https://github.com/JoeyCollado">
-    <img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff" alt="Top Contributions" />
+<img align="center" src="https://github-contributor-stats.vercel.app/api?username=JoeyCollado&limit=3&theme=nightowl&show_owner=true&combine_all_yearly_contributions=false&bg_color=0,000000,03014e&title_color=00a6ff&text_color=ffffff&cache_seconds=0" alt="Top Contributions" />
   </a>
 </p>
 
