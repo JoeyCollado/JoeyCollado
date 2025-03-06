@@ -238,7 +238,7 @@
 
 - 🥇 **Top Contributor** in various GitHub repositories.  
 - 🌍 Built and launched multiple **production-level web apps**.  
-- 🏆 **Hackathon Champion** in web development competitions.d
+- 🏆 **Hackathon Champion** in web development competitions.
   </td>
   </tr>
   </table>
