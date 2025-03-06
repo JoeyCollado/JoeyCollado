@@ -4,8 +4,8 @@
     <td>
 <h1 align="center" style="color: #0e75b6;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" /><br>
-   Joey Aibert U. Collado<br>
-▁ ▂ ▄ ▅ ▆ ▇ █ Programmer █ ▇ ▆ ▅ ▄ ▂ ▁
+<br>
+<img width=100% src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/photo/banner.png"/>
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br><br>
 </h1>
