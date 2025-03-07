@@ -230,6 +230,7 @@ If you're interested in building something together, let’s connect!</h3>
 <img src="https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 <img src="https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
 </marquee>
 
 ### 🖥️ Development Tools & IDEs  
@@ -238,7 +239,6 @@ If you're interested in building something together, let’s connect!</h3>
 <img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
 <img src="https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
 </marquee>
 
 ### 🔧 Version Control & Collaboration  
