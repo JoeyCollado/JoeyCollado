@@ -40,6 +40,7 @@
     <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
+  <h3>I've started programming since 2023 and it was a blast for me trying to get into different technologies and it's only been months ahead of it when i started to get my way on Web developing and now i've been actively pursuing Full Stack Web development. I am also a computer science student who continuously been refining his skillset and mastering core technologies of web development. throughout the years technologies is been proven to be really dynamic, shifting from different tools to accomplish a task and throughout the time i've been able to develop a resilient and adaptive mind. this journey of mine is a long one, and it's one i'll have to see through the end. and if you wish to create something with me together, let's connect!</h3>
 </p>
     </td>
   </tr>
