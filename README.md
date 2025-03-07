@@ -303,7 +303,7 @@ If you're interested in building something together, let’s connect!</h3>
 
 🏆 **Achievements**:  
 
-- 🥇 **Top Contributor** in various GitHub repositories.  
+🥇 **Top Contributor** in various GitHub repositories.  
 - 🌍 Built and launched multiple **production-level web apps**.  
 - 🏆 **Hackathon Champion** in web development competitions.
 
