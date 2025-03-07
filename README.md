@@ -305,7 +305,7 @@ If you're interested in building something together, let’s connect!</h3>
 
 🥇 **Top Contributor** in various GitHub repositories.  
 🌍 Built and launched multiple **production-level web apps**.  
-- 🏆 **Hackathon Champion** in web development competitions.
+🏆 **Hackathon Champion** in web development competitions.
 
   <br>
   </td>
