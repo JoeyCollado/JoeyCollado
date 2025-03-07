@@ -183,6 +183,9 @@ If you're interested in building something together, let’s connect!</h3>
   <a href="https://github.com/joeycollado" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+   <a href="mailto:akosijoeyaibertcollado@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
 </p>
 
 <br>
