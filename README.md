@@ -186,6 +186,9 @@ If you're interested in building something together, let’s connect!</h3>
    <a href="mailto:akosijoeyaibertcollado@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
+   <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+  </a>
 </p>
 
 <br>
