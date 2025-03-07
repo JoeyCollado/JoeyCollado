@@ -297,7 +297,7 @@ If you're interested in building something together, let’s connect!</h3>
 
 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.
   
-- 🏗️ Love experimenting with **3D elements and animations** in web apps.
+🏗️ Love experimenting with **3D elements and animations** in web apps.
   
 - 🔥 Enjoy **teaching and mentoring** others in coding.  
 
