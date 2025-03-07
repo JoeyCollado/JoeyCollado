@@ -40,7 +40,11 @@
     <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
-  <h3>I've started programming since 2023 and it was a blast for me trying to get into different technologies and it's only been months ahead of it when i started to get my way on Web developing and now i've been actively pursuing Full Stack Web development. I am also a computer science student who continuously been refining his skillset and mastering core technologies of web development. throughout the years of my programming experience, technologies has been proven to be really dynamic, shifting from different tools to accomplish a task more efficient, and throughout the time i've been able to develop a resilient and adaptive mind. this journey of mine is a long one, and it's one i'll have to see through the end. and if you wish to create something with me together, let's connect!.</h3>
+  <h3>I started programming in 2023, and it's been an exciting journey exploring different technologies. Just months into it, I found my way into web development, and ever since, I've been actively pursuing Full Stack Web Development. As a Computer Science student, I'm continuously refining my skill set and mastering the core technologies of web development.
+
+Through my programming experience, I've witnessed how dynamic technology can be—constantly evolving with new tools to enhance efficiency. This ever-changing landscape has helped me develop a resilient and adaptive mindset. My journey is a long one, and I’m committed to seeing it through to the end.
+
+If you're interested in building something together, let’s connect!</h3>
 </p>
     </td>
   </tr>
