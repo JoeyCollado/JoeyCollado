@@ -235,7 +235,7 @@ If you're interested in building something together, let’s connect!</h3>
 
 ### 🖥️ Development Tools & IDEs  
 <marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code Badge">
 <img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
 <img src="https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
