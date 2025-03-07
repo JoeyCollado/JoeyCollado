@@ -299,7 +299,7 @@ If you're interested in building something together, let’s connect!</h3>
   
 🏗️ Love experimenting with **3D elements and animations** in web apps.
   
-- 🔥 Enjoy **teaching and mentoring** others in coding.  
+🔥 Enjoy **teaching and mentoring** others in coding.  
 
 🏆 **Achievements**:  
 
