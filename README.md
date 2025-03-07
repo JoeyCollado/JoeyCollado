@@ -40,7 +40,7 @@
     <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
-  <h3>I started programming in 2023, and it's been an exciting journey exploring different technologies. Just months into it, I found my way into web development, and ever since, I've been actively pursuing Full Stack Web Development. As a Computer Science student, I'm continuously refining my skill set and mastering the core technologies of web development.<br>
+  <h3>I started programming in 2023, and it's been an exciting journey exploring different technologies. Just months into it, I found my way into web development, and ever since, I've been actively pursuing Full Stack Web Development. As a Computer Science student, I'm continuously refining my skill set and mastering the core technologies of web development.<br><br>
 
 Through my programming experience, I've witnessed how dynamic technology can be—constantly evolving with new tools to enhance efficiency. This ever-changing landscape has helped me develop a resilient and adaptive mindset. My journey is a long one, and I’m committed to seeing it through to the end.
 
