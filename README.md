@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ghosh/uiGradients/master/gradients/ibiza.png" width="100%" height="30">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
 
