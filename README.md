@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://svgshare.com/i/15Tt.svg" width="100%" alt="Pixel Divider">
+<img src="https://readme-typing-svg.herokuapp.com?size=18&duration=3000&color=00FF00&center=true&vCenter=true&width=100&lines=█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█" alt="Hacker Divider">
 </p>
 
 
