@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?size=20&duration=4000&color=0FF1CE&center=true&vCenter=true&width=100&lines=✨+Neon+Glow+Divider+✨" alt="Neon Divider">
+<img src="https://raw.githubusercontent.com/ghosh/uiGradients/master/gradients/ibiza.png" width="100%" height="30">
 </p>
 
 
