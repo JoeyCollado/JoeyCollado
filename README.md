@@ -4,8 +4,6 @@
 <h1 align="center" style="color: #0e75b6;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" />
 <img width=100% src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/photo/bannerv2.png"/>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" />
-
    <br>
 </h1>
 
