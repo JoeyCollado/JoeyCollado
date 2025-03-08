@@ -435,8 +435,8 @@ If you're interested in building something together, let’s connect!</h3>
  <a href="https://www.facebook.com/joeyaibert31/" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
   </a>
-  
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
+  <br><br>
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=80&section=footer"/>
 </p>
 </td>
 </tr>
