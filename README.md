@@ -1,4 +1,3 @@
-
 <table align="center">
   <tr>
     <td>
@@ -10,7 +9,6 @@
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
-  
 </p>
     </td>
   </tr>
@@ -40,6 +38,12 @@
     <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
+  <h3 align="center">I started programming since 2023, and ever since i've felt nothing but the excitement exploring different technologies, with no clear path i am searching and learning the inner secrets of computer technology. and as time passed I've found my way into web development, and up until doay i've been actively pursuing Full Stack Web Development. 
+As a Computer Science student, I'm continuously refining my skill set and mastering the core technologies of web development.<br><br>
+
+Through my programming experience, I've witnessed how dynamic technology can be constantly evolving with new tools to enhance efficiency. This ever-changing landscape has helped me develop a resilient and adaptive mindset. My journey is a long one, and I’m committed to seeing it through to the end.
+
+If you're interested in building something together, let’s connect!</h3>
 </p>
     </td>
   </tr>
@@ -113,7 +117,7 @@
 </p>
 
 <h1 align="center" style="color: blue;">
-   📜 Certifications
+   📜 Certificates
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br>
 </h1>
@@ -178,6 +182,12 @@
   <a href="https://github.com/joeycollado" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+   <a href="mailto:akosijoeyaibertcollado@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+   <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
+  </a>
 </p>
 
 <br>
@@ -225,11 +235,12 @@
 <img src="https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white" />
 <img src="https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
 </marquee>
 
 ### 🖥️ Development Tools & IDEs  
 <marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/VS_Code-%23007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code Badge">
 <img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
 <img src="https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
 <img src="https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
@@ -290,17 +301,19 @@
       
 ✨ **Fun Facts**:  
 
-- 🎨 UI/UX enthusiast with a passion for **clean and responsive design**.
-  
-- 🏗️ Love experimenting with **3D elements and animations** in web apps.
-  
-- 🔥 Enjoy **teaching and mentoring** others in coding.  
+🎨 UI/UX enthusiast with a passion for **clean and responsive design**.
+
+🏗️ Love experimenting with **3D elements and animations** in web apps.
+
+🔥 Enjoy **teaching and mentoring** others in coding.  
 
 🏆 **Achievements**:  
 
-- 🥇 **Top Contributor** in various GitHub repositories.  
-- 🌍 Built and launched multiple **production-level web apps**.  
-- 🏆 **Hackathon Champion** in web development competitions.
+🥇 **Top Contributor** in various GitHub repositories.  
+
+🌍 Built and launched multiple **production-level web apps**. 
+
+🏆 **Hackathon Champion** in web development competitions.
 
   <br>
   </td>
@@ -310,7 +323,7 @@
   <br><br>
 
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&width=100%" alt="Neon Glow Divider">
 </p>
 
 
