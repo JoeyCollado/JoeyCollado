@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
+<img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=ff0000&center=true&vCenter=true&width=100&lines=█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█" alt="Glitch Divider">
 </p>
 
 
