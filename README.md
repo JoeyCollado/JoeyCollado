@@ -1,5 +1,4 @@
 
-<table align="center">
   <tr>
     <td>
 <h1 align="center" style="color: #0e75b6;">
@@ -10,7 +9,6 @@
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
-  
 </p>
     </td>
   </tr>
