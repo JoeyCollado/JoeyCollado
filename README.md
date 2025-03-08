@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=ff0000&center=true&vCenter=true&width=100&lines=█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█" alt="Glitch Divider">
+<img src="https://svgshare.com/i/15Tt.svg" width="100%" alt="Pixel Divider">
 </p>
 
 
