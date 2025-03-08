@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
+  
 </p>
     </td>
   </tr>
@@ -436,7 +436,7 @@ If you're interested in building something together, let’s connect!</h3>
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
   </a>
   
-  ![divider](https://capsule-render.vercel.app/api?type=waving&color=00A2FF&height=120&section=footer)
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
 </p>
 </td>
 </tr>
