@@ -5,7 +5,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=120&width=100%" alt="Blue Wave Effect" />
 <img width=100% src="https://raw.githubusercontent.com/JoeyCollado/JoeyCollado/main/assets/photo/banner.png"/>
    <br>
-</h1>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=0:00a2ff,100:0033ff&height=100&section=footer"/>
