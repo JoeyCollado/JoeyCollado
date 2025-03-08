@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0ff1ce&height=40&width=100%" alt="Wavy Divider">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff0080,8000ff&height=30&width=100%" alt="Gradient Divider">
 </p>
 
 
