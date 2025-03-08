@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://svgshare.com/i/15VM.svg" width="100%" alt="Doodle Divider">
+   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
 
