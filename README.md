@@ -18,7 +18,7 @@
 
 <br>
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff0080,8000ff&height=30&width=100%" alt="Gradient Divider">
+<img src="https://readme-typing-svg.herokuapp.com?size=20&duration=4000&color=0FF1CE&center=true&vCenter=true&width=100&lines=✨+Neon+Glow+Divider+✨" alt="Neon Divider">
 </p>
 
 
