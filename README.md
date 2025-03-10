@@ -356,6 +356,8 @@ If you're interested in building something together, let’s connect!</h3>
         </picture>
       </p>
 
+<br>
+
 <div align="center">
         <a href="https://git.io/streak-stats">
           <picture>
