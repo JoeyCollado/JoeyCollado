@@ -366,8 +366,7 @@ If you're interested in building something together, let’s connect!</h3>
             <source 
               srcset="https://streak-stats.demolab.com?user=JoeyCollado&theme=default&fire=E44D26&background=ffffff&border=24292f&stroke=E44D26&ring=E44D26&currStreakNum=0366d6&sideNums=0366d6&currStreakLabel=24292f&sideLabels=24292f&dates=24292f&excludeDaysLabel=24292f" 
               media="(prefers-color-scheme: light)">
-            <img src="https://streak-stats.demolab.com?user=JoeyCollado&theme=black-ice&fire=14BBEB&background=45%2C000000%2C000A8E&border=FFFFFF&stroke=14BBEB&ring=14BBEB&currStreakNum=D4A017&sideNums=D4A017&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&excludeDaysLabel=FFFFFF" 
-                 alt="GitHub Streak">
+            <img src="https://streak-stats.demolab.com?user=JoeyCollado&theme=black-ice&fire=14BBEB&background=45%2C000000%2C000A8E&border=FFFFFF&stroke=14BBEB&ring=14BBEB&currStreakNum=D4A017&sideNums=D4A017&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&excludeDaysLabel=FFFFFF" alt="GitHub Streak">
           </picture>
         </a>
       </div>
