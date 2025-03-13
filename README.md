@@ -343,8 +343,8 @@ If you're interested in building something together, let’s connect!</h3>
           <source 
             srcset="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=light&bg_color=ffffff&title_color=0366d6&text_color=24292f&icon_color=0366d6&cache_seconds=7200" 
             media="(prefers-color-scheme: light)">
-          <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200" 
-               alt="GitHub Stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=joeycollado&show_icons=true&theme=dark&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&cache_seconds=7200&count_private=true" 
+     alt="GitHub Stats">
         </picture>
       </p>
 
