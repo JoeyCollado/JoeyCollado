@@ -145,8 +145,8 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="Placeholder"/>
    </a>
    <br><br>
-   <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E" target="_blank">
-   <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="Placeholder"/>
+   <a href="assets/cert/IoT.png" target="_blank">
+   <img src="https://img.shields.io/badge/IoT%20for%20Smart%20Environments%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="IoT for Smart Environment"/>
    </a>
    <br><br>
     <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2B91DA9825B8F5567326BD935CE038DC91E95FD3ED0ECFF4C75BB2CDB604FF0E" target="_blank">
