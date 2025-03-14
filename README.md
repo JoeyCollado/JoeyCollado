@@ -338,19 +338,7 @@ If you're interested in building something together, let’s connect!</h3>
   <tr>
     <td align="center">
       <br>
-
-  <p align="center">
-        <picture>
-          <source 
-            srcset="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=default&bg_color=ffffff&title_color=0366d6&text_color=24292f&icon_color=0366d6&langs_count=10&cache_seconds=7200" 
-            media="(prefers-color-scheme: light)">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" 
-               alt="Top Languages">
-        </picture>
-      </p>
-
- <br>
-
+         
    <div align="center">
         <a href="https://git.io/streak-stats">
           <picture>
@@ -363,6 +351,17 @@ If you're interested in building something together, let’s connect!</h3>
       </div>
 
   <br>
+
+  <p align="center">
+        <picture>
+          <source 
+            srcset="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=default&bg_color=ffffff&title_color=0366d6&text_color=24292f&icon_color=0366d6&langs_count=10&cache_seconds=7200" 
+            media="(prefers-color-scheme: light)">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joeycollado&show_icons=true&layout=compact&theme=tokyonight&bg_color=0,000000,03014e&title_color=00A2FF&text_color=ffffff&icon_color=00A2FF&langs_count=10&cache_seconds=7200" 
+               alt="Top Languages">
+        </picture>
+      </p>
+
 
 <p align="center">
         <a href="https://github.com/JoeyCollado">
