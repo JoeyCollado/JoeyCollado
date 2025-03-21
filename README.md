@@ -40,10 +40,10 @@
     <td>
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
-  <h3 align="center">I started programming since 2023, and ever since i've felt nothing but the excitement exploring different technologies, with no clear path i am searching and learning the inner secrets of computer technology. and as time passed I've found my way into web development, and up until doay i've been actively pursuing Full Stack Web Development. 
+  <h3 align="center">I started programming since 2023, and ever since i've felt nothing but the excitement exploring different technologies, with no clear path i am searching and learning the all the intricate details of computer technology. and as time passed I've found my way into web development, and up until today i've been actively pursuing Full Stack Web Development. 
 As a Computer Science student, I'm continuously refining my skill set and mastering the core technologies of web development.<br><br>
 
-Through my programming experience, I've witnessed how dynamic technology can be constantly evolving with new tools to enhance efficiency. This ever-changing landscape has helped me develop a resilient and adaptive mindset. My journey is a long one, and I’m committed to seeing it through to the end.
+Through my programming experience, I've witnessed how dynamic technology can be. constantly evolving with new tools to enhance efficiency. This ever-changing landscape has helped me develop a resilient and adaptive mindset. My journey is a long one, and I’m committed to seeing it through the end.
 
 If you're interested in building something together, let’s connect!</h3>
 </p>
