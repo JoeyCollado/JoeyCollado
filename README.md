@@ -23,7 +23,7 @@
 
 
 <h2 align="center" style="color: #1c6e8c;">
-  💻 Full-Stack Web Developer | 💻 Skilled Front-End Developer
+  💻 Full-Stack Web Developer | 💻 Front-end development specialist
   <br><br>
 </h2>
 
