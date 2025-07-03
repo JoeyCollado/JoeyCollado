@@ -137,7 +137,7 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="Living in the IT Era Social Media App"/>
    </a>
     <br><br>
-  <a href="assets/cert/appcon-cert" target="_blank">
+  <a href="assets/cert/appcon-cert.png" target="_blank">
    <img src="https://img.shields.io/badge/Appcon%20(2024)-AppCon-blue?style=for-the-badge" alt="Appcon 2024"/>
    </a>
     <br><br>
