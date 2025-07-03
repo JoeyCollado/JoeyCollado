@@ -138,7 +138,7 @@ If you're interested in building something together, let’s connect!</h3>
    </a>
     <br><br>
   <a href="assets/cert/appcon-cert" target="_blank">
-   <img src="https://img.shields.io/badge/Living%20in%20the%20IT%20Era%20Social%20Media%20App%20(2023)-ICCT.Colleges-blue?style=for-the-badge" alt="Appcon 2024"/>
+   <img src="https://img.shields.io/badge/Appcon%20(2024)-ICCT.Colleges-blue?style=for-the-badge" alt="Appcon 2024"/>
    </a>
     <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D02388DE29AB71C7DBBBA4944DB984172534" target="_blank">
