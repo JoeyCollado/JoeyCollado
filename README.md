@@ -43,7 +43,7 @@
   <h3 align="center">I started programming since 2023, I am a computer science student and an aspiring full-stack web developer. <br>
 If you're interested in building something together, let’s connect!</h3>
      <br>
-     <link href="https://joey-collado.vercel.app/">Check my portfolio</link>
+     <a href="https://joey-collado.vercel.app/">Check my portfolio</a>
 </p>
     </td>
   </tr>
