@@ -42,6 +42,8 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">
   <h3 align="center">I started programming since 2023, I am a computer science student and an aspiring full-stack web developer. <br>
 If you're interested in building something together, let’s connect!</h3>
+     <br>
+     <link href="https://joey-collado.vercel.app/">Check my portfolio</p>link>
 </p>
     </td>
   </tr>
