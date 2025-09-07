@@ -46,9 +46,11 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
     </td>
   </tr>
-  <br><br><br>
+  <br>
+  <p align="center">
      <a align="center" href="https://joey-collado.vercel.app/">Check my portfolio</a>
-     <br><br><br>
+       </p>
+     <br>
 </table>
 
 <br><br>
