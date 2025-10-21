@@ -1,25 +1,39 @@
-name: Update README
+name: Natural Daily Contribution
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Runs every 5 minutes
+    - cron: "0 4 * * *" # Runs daily at 12:00 PM Philippines time (UTC+8)
+  workflow_dispatch:
 
 jobs:
-  update:
+  auto-commit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Update README
+      - name: Set up Git identity as you
         run: |
-          timestamp=$(date +%s)
-          sed -i "s/cache=[0-9]*/cache=$timestamp/g" README.md
+          git config user.name "$(git log -1 --pretty=format:'%an')" 
+          git config user.email "$(git log -1 --pretty=format:'%ae')"
 
-      - name: Commit and push changes
+      - name: Update invisible README timestamp
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          # Hidden HTML comment update (invisible to visitors)
+          timestamp="<!-- last updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC') -->"
+          
+          # Replace existing or append if not found
+          if grep -q '<!-- last updated:' README.md; then
+            sed -i "s|<!-- last updated: .* -->|$timestamp|" README.md
+          else
+            echo "" >> README.md
+            echo "$timestamp" >> README.md
+          fi
+
+      - name: Commit & push
+        run: |
+          messages=("docs: refactor metadata" "chore: automated maintenance pass" "docs: routine keepalive update" "refactor: background upkeep" "chore: refine internal documentation" "ci: lightweight awareness update" "meta: documentation polish")
+          random_msg=${messages[$RANDOM % ${#messages[@]}]}
+          
           git add README.md
-          git commit -m "Auto-update cache timestamp" || exit 0
+          git commit -m "$random_msg" || exit 0
           git push
