@@ -109,4 +109,4 @@ jobs:
           done
 
       - name: Push all commits
-        run: git push
+        run: git push origin main
