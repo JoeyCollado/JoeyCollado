@@ -1,112 +1,56 @@
-name: Natural Daily Contribution
+name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 4 * * *" # Runs daily at 12:00 PM PH time (04:00 UTC)
+    - cron: "0 1 * * *" # runs once at 09:00 AM PH TIME (UTC+8 = 01:00 UTC)
   workflow_dispatch:
 
 jobs:
-  auto-commit:
+  contribute:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      GIT_AUTHOR_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
+      GIT_COMMITTER_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
+      TZ: "Asia/Manila"
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Set up Git identity
+      - name: Generate random commit count (5–10)
+        id: rnd
+        run: echo "count=$((RANDOM % 6 + 5))" >> $GITHUB_OUTPUT
+
+      - name: Run commits with natural delay
         run: |
-          git config user.name "$(git log -1 --pretty=format:'%an')" 
-          git config user.email "$(git log -1 --pretty=format:'%ae')"
+          git config user.name "JoeyCollado"
+          for i in $(seq 1 ${{ steps.rnd.outputs.count }}); do
+            sleep $(( (RANDOM % 3600) + 600 ))  # random 10min–1hr 10min pauses per commit
 
-      - name: Make multiple realistic commits
-        run: |
-          # Random daily commit count: 2–12
-          COUNT=$((2 + RANDOM % 11))
-          echo "Planning $COUNT commits today..."
+            files=(
+              "README.md"
+              ".keepalive"
+              ".github/meta.log"
+              "system.config"
+              "env.example"
+              "data.json"
+            )
 
-          # Commit messages array (mix of realistic and random)
-          messages=(
-            "docs: refactor metadata"
-            "chore: automated maintenance pass"
-            "fix: minor typo correction"
-            "style: code formatting"
-            "ci: lightweight update"
-            "perf: small optimization"
-            "meta: documentation polish"
-            "note: keeping things tidy"
-            "update: minor improvements"
-            "refactor: internal structure"
-            "fix: update README links"
-            "feat: add new docs section"
-            "update: adjust config"
-          )
+            target=${files[$RANDOM % ${#files[@]}]}
+            echo "update $(date +%s)" >> "$target"
+            git add "$target"
 
-          # Working hours in PH time (occasional early/late spread)
-          START_HOUR=6
-          END_HOUR=23
-
-          commits=()
-
-          # Generate commits with random timestamps
-          for i in $(seq 1 $COUNT); do
-            RANDOM_HOUR=$(( START_HOUR + RANDOM % (END_HOUR - START_HOUR + 1) ))
-            RANDOM_MIN=$(( RANDOM % 60 ))
-            RANDOM_SEC=$(( RANDOM % 60 ))
-            RANDOM_MS=$(( RANDOM % 100 ))
-
-            TODAY=$(date -u -d "+8 hour" +"%Y-%m-%d")
-            COMMIT_DATE=$(date -u -d "$TODAY $RANDOM_HOUR:$RANDOM_MIN:$RANDOM_SEC +08:00" +"%Y-%m-%dT%H:%M:%S")
-
-            base_msg=${messages[$RANDOM % ${#messages[@]}]}
-            suffix=$((RANDOM % 1000))
-
-            # Humanize message (random capitalization & punctuation)
-            first_char=${base_msg:0:1}
-            rest=${base_msg:1}
-            if (( RANDOM % 2 )); then
-              first_char=$(echo "$first_char" | tr '[:lower:]' '[:upper:]')
-            fi
-            punctuation=""
-            rand=$((RANDOM % 3))
-            if [ $rand -eq 1 ]; then
-              punctuation="."
-            elif [ $rand -eq 2 ]; then
-              punctuation="!"
-            fi
-
-            random_msg="$first_char$rest #$suffix$punctuation"
-
-            # Occasionally modify a small dummy file
-            if (( RANDOM % 2 )); then
-              echo "Tiny update $RANDOM" >> .tmp.txt
-              git add .tmp.txt
-            fi
-
-            commits+=("$COMMIT_DATE.$RANDOM_MS|$random_msg")
+            msgs=(
+              "minor cleanup"
+              "small tweak"
+              "adjusted some formatting"
+              "slight refactor"
+              "updated minor metadata"
+              "maintenance pass"
+              "tiny improvements"
+            )
+            git commit -m "${msgs[$RANDOM % ${#msgs[@]}]}" || true
+            git push origin main || true
           done
-
-          # Shuffle commits array
-          for j in $(seq 0 $((COUNT-1))); do
-            k=$((RANDOM % COUNT))
-            tmp=${commits[$j]}
-            commits[$j]=${commits[$k]}
-            commits[$k]=$tmp
-          done
-
-          # Apply commits
-          for commit in "${commits[@]}"; do
-            IFS="|" read COMMIT_DATE random_msg <<< "$commit"
-
-            # Update hidden timestamp in README.md
-            timestamp="<!-- last updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC') -->"
-            if grep -q '<!-- last updated:' README.md; then
-              sed -i "s|<!-- last updated: .* -->|$timestamp|" README.md
-            else
-              echo "" >> README.md
-              echo "$timestamp" >> README.md
-            fi
-
-            git add README.md
-            GIT_COMMITTER_DATE="$COMMIT_DATE" git commit --date "$COMMIT_DATE" -m "$random_msg" || echo "No changes to commit."
-          done
-
-      - name: Push all commits
-        run: git push origin main
