@@ -29,6 +29,8 @@ jobs:
             "JoeyCollado/ExpressJsCourse"
             "JoeyCollado/absolute-movie"
             "JoeyCollado/portfolio2"
+            "JoeyCollado/prisma-mongodb"
+            "JoeyCollado/crud-project"
           )
 
           for repo in "${repos[@]}"; do
@@ -55,14 +57,17 @@ jobs:
               "updated minor metadata"
               "maintenance pass"
               "tiny improvements"
+              "code polish"
+              "dependency check"
+              "minor optimization"
             )
 
-            # random number of commits (5–10)
-            count=$((RANDOM % 6 + 5))
+            # random number of commits (10–20)
+            count=$((RANDOM % 11 + 10))
             echo "Generating $count commits for $repo..."
 
             for i in $(seq 1 $count); do
-              sleep $(( (RANDOM % 3600) + 600 ))  # random delay between 10min–1hr 10min
+              sleep $(( (RANDOM % 900) + 600 ))  # random delay between 10min–1hr 10min
               target=${files[$RANDOM % ${#files[@]}]}
               echo "update $(date +%s)" >> "$target"
               git add "$target"
