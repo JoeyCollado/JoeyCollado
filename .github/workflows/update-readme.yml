@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 1 * * *" # runs once at 09:00 AM PH TIME (UTC+8)
+    - cron: "0 */4 * * *" # runs every 4 hours (6 times a day)
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          # list of repositories you want to commit to
           repos=(
             "JoeyCollado/Java-oop"
             "JoeyCollado/ExpressJsCourse"
@@ -33,47 +32,47 @@ jobs:
             "JoeyCollado/crud-project"
           )
 
+          msgs=(
+            "minor cleanup"
+            "small tweak"
+            "adjusted some formatting"
+            "slight refactor"
+            "updated minor metadata"
+            "maintenance pass"
+            "tiny improvements"
+            "code polish"
+            "dependency check"
+            "minor optimization"
+          )
+
+          files=(
+            "README.md"
+            ".keepalive"
+            ".github/meta.log"
+            "system.config"
+            "env.example"
+            "data.json"
+          )
+
           for repo in "${repos[@]}"; do
             echo "Processing $repo ..."
             git clone "https://x-access-token:${TOKEN}@github.com/$repo.git"
             cd "$(basename "$repo")"
+            git config user.name "$GIT_AUTHOR_NAME"
+            git config user.email "$GIT_AUTHOR_EMAIL"
 
-            # possible target files
-            files=(
-              "README.md"
-              ".keepalive"
-              ".github/meta.log"
-              "system.config"
-              "env.example"
-              "data.json"
-            )
-
-            # commit messages
-            msgs=(
-              "minor cleanup"
-              "small tweak"
-              "adjusted some formatting"
-              "slight refactor"
-              "updated minor metadata"
-              "maintenance pass"
-              "tiny improvements"
-              "code polish"
-              "dependency check"
-              "minor optimization"
-            )
-
-            # random number of commits (10–20)
             count=$((RANDOM % 11 + 10))
             echo "Generating $count commits for $repo..."
 
             for i in $(seq 1 $count); do
-              sleep $(( (RANDOM % 900) + 600 ))  # random delay between 10min–1hr 10min
               target=${files[$RANDOM % ${#files[@]}]}
+              touch "$target"
               echo "update $(date +%s)" >> "$target"
               git add "$target"
               msg=${msgs[$RANDOM % ${#msgs[@]}]}
               git commit -m "$msg" || true
-              git push origin main || true
+              git push origin main || git push origin master || true
+              sleep $(( (RANDOM % 900) + 600 ))  # 10min–1hr10min
             done
 
             cd ..
