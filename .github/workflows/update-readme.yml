@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # runs every 4 hours (6 times a day)
+    - cron: "0 1 * * *" # runs once daily at 9:00 AM PH time (UTC+8)
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       TZ: "Asia/Manila"
 
     steps:
-      - name: Clone and commit to multiple repositories
+      - name: Clone and commit to multiple repositories with random schedule
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
@@ -61,7 +61,7 @@ jobs:
             git config user.name "$GIT_AUTHOR_NAME"
             git config user.email "$GIT_AUTHOR_EMAIL"
 
-            count=$((RANDOM % 11 + 10))
+            count=$((RANDOM % 11 + 10))  # 10–20 commits
             echo "Generating $count commits for $repo..."
 
             for i in $(seq 1 $count); do
@@ -72,7 +72,11 @@ jobs:
               msg=${msgs[$RANDOM % ${#msgs[@]}]}
               git commit -m "$msg" || true
               git push origin main || git push origin master || true
-              sleep $(( (RANDOM % 900) + 600 ))  # 10min–1hr10min
+
+              # random sleep between 15 minutes to 1 hour 30 minutes
+              delay=$(( (RANDOM % 4500) + 900 ))
+              echo "Sleeping for $delay seconds (~$((delay/60)) min)..."
+              sleep $delay
             done
 
             cd ..
