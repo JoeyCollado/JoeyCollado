@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 1 * * *" # runs once daily at 9:00 AM PH time (UTC+8)
+    - cron: "0 23 * * *" # runs once daily at 7:00 AM PH time (UTC+8)
   workflow_dispatch:
 
 jobs:
@@ -66,16 +66,15 @@ jobs:
 
             for i in $(seq 1 $count); do
               target=${files[$RANDOM % ${#files[@]}]}
-              touch "$target"
               echo "update $(date +%s)" >> "$target"
               git add "$target"
               msg=${msgs[$RANDOM % ${#msgs[@]}]}
               git commit -m "$msg" || true
               git push origin main || git push origin master || true
 
-              # random sleep between 15 minutes to 1 hour 30 minutes
-              delay=$(( (RANDOM % 4500) + 900 ))
-              echo "Sleeping for $delay seconds (~$((delay/60)) min)..."
+              # random sleep between 10 to 120 seconds
+              delay=$(( (RANDOM % 110) + 10 ))
+              echo "Sleeping for $delay seconds..."
               sleep $delay
             done
 
