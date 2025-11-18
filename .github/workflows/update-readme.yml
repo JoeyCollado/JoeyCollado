@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 23 * * *" # runs once daily at 7:00 AM PH time (UTC+8)
+    - cron: "0 5 * * *" 
   workflow_dispatch:
 
 jobs:
