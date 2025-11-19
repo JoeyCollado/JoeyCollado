@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 5 * * *" 
+    - cron: "0 5 * * *" # 1:00 PM PH Time
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       TZ: "Asia/Manila"
 
     steps:
-      - name: Clone and commit to multiple repositories with random schedule
+      - name: Clone and commit to multiple repositories (FAST)
         env:
           TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
@@ -35,9 +35,9 @@ jobs:
           msgs=(
             "minor cleanup"
             "small tweak"
-            "adjusted some formatting"
+            "adjusted formatting"
             "slight refactor"
-            "updated minor metadata"
+            "updated metadata"
             "maintenance pass"
             "tiny improvements"
             "code polish"
@@ -72,8 +72,8 @@ jobs:
               git commit -m "$msg" || true
               git push origin main || git push origin master || true
 
-              # random sleep between 10 to 120 seconds
-              delay=$(( (RANDOM % 110) + 10 ))
+              # SUPER FAST DELAY: 1–5 seconds
+              delay=$(( (RANDOM % 5) + 1 ))
               echo "Sleeping for $delay seconds..."
               sleep $delay
             done
