@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 1:00 PM PH Time
+    - cron: "0 5 * * *" # Runs daily, PH time = 1 PM
   workflow_dispatch:
 
 jobs:
@@ -12,16 +12,16 @@ jobs:
       contents: write
 
     env:
-      GIT_AUTHOR_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
-      GIT_COMMITTER_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
       GIT_AUTHOR_NAME: "JoeyCollado"
       GIT_COMMITTER_NAME: "JoeyCollado"
+      GIT_AUTHOR_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
+      GIT_COMMITTER_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
       TZ: "Asia/Manila"
 
     steps:
-      - name: Clone and commit to multiple repositories (FAST)
+      - name: Generate 10–15 total commits across all repos
         env:
-          TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           repos=(
             "JoeyCollado/Java-oop"
@@ -33,51 +33,49 @@ jobs:
           )
 
           msgs=(
-            "minor cleanup"
-            "small tweak"
-            "adjusted formatting"
-            "slight refactor"
-            "updated metadata"
-            "maintenance pass"
-            "tiny improvements"
-            "code polish"
-            "dependency check"
-            "minor optimization"
+            "docs: updated README"
+            "chore: metadata refresh"
+            "style: formatting pass"
+            "refactor: minor cleanup"
+            "perf: small optimization"
+            "chore: updated config set"
+            "docs: maintenance update"
           )
 
           files=(
             "README.md"
             ".keepalive"
-            ".github/meta.log"
-            "system.config"
-            "env.example"
-            "data.json"
+            ".github/commit.log"
           )
 
-          for repo in "${repos[@]}"; do
-            echo "Processing $repo ..."
+          TOTAL=$((RANDOM % 6 + 10)) # 10–15 total commits
+          echo "Total commits today: $TOTAL"
+
+          for i in $(seq 1 $TOTAL); do
+            repo=${repos[$RANDOM % ${#repos[@]}]}
+            echo "Working on repo: $repo"
+
             git clone "https://x-access-token:${TOKEN}@github.com/$repo.git"
             cd "$(basename "$repo")"
+
             git config user.name "$GIT_AUTHOR_NAME"
             git config user.email "$GIT_AUTHOR_EMAIL"
+            git config --global --add safe.directory "$(pwd)"
 
-            count=$((RANDOM % 11 + 10))  # 10–20 commits
-            echo "Generating $count commits for $repo..."
+            target=${files[$RANDOM % ${#files[@]}]}
 
-            for i in $(seq 1 $count); do
-              target=${files[$RANDOM % ${#files[@]}]}
-              echo "update $(date +%s)" >> "$target"
-              git add "$target"
-              msg=${msgs[$RANDOM % ${#msgs[@]}]}
-              git commit -m "$msg" || true
-              git push origin main || git push origin master || true
+            # Realistic, non-spammy commit content
+            echo "- update on $(date '+%Y-%m-%d %H:%M:%S')" >> "$target"
 
-              # SUPER FAST DELAY: 1–5 seconds
-              delay=$(( (RANDOM % 5) + 1 ))
-              echo "Sleeping for $delay seconds..."
-              sleep $delay
-            done
+            git add "$target"
+            msg=${msgs[$RANDOM % ${#msgs[@]}]}
+            git commit -m "$msg" || true
+            git push || true
 
             cd ..
             rm -rf "$(basename "$repo")"
+
+            delay=$((RANDOM % 20 + 10)) # 10–30 sec
+            echo "Sleeping for $delay seconds"
+            sleep $delay
           done
