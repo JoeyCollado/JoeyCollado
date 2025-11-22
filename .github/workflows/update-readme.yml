@@ -2,7 +2,7 @@ name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 5 * * *" # Runs daily, PH time = 1 PM
+    - cron: "0 5 * * *" # 1:00 PM PH Time
   workflow_dispatch:
 
 jobs:
@@ -19,10 +19,15 @@ jobs:
       TZ: "Asia/Manila"
 
     steps:
-      - name: Generate 10–15 total commits across all repos
+      - uses: actions/checkout@v4
+
+      - name: Run Contribution Script
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          mkdir workspace
+          cd workspace
+
           repos=(
             "JoeyCollado/Java-oop"
             "JoeyCollado/ExpressJsCourse"
@@ -48,34 +53,38 @@ jobs:
             ".github/commit.log"
           )
 
-          TOTAL=$((RANDOM % 6 + 10)) # 10–15 total commits
+          TOTAL=$((RANDOM % 6 + 10)) # 10–15 commits
           echo "Total commits today: $TOTAL"
 
           for i in $(seq 1 $TOTAL); do
             repo=${repos[$RANDOM % ${#repos[@]}]}
-            echo "Working on repo: $repo"
+            echo "--- Cloning $repo ---"
 
-            git clone "https://x-access-token:${TOKEN}@github.com/$repo.git"
-            cd "$(basename "$repo")"
+            git clone "https://x-access-token:${TOKEN}@github.com/$repo.git" >/dev/null 2>&1
+            cd "$(basename "$repo")" || { echo "Clone failed"; exit 1; }
 
             git config user.name "$GIT_AUTHOR_NAME"
             git config user.email "$GIT_AUTHOR_EMAIL"
             git config --global --add safe.directory "$(pwd)"
 
             target=${files[$RANDOM % ${#files[@]}]}
+            mkdir -p "$(dirname "$target")"
 
-            # Realistic, non-spammy commit content
+            # ensure file exists
+            touch "$target"
+
             echo "- update on $(date '+%Y-%m-%d %H:%M:%S')" >> "$target"
 
             git add "$target"
             msg=${msgs[$RANDOM % ${#msgs[@]}]}
-            git commit -m "$msg" || true
-            git push || true
+
+            git commit -m "$msg" || echo "No commit created"
+            git push || echo "Push failed"
 
             cd ..
             rm -rf "$(basename "$repo")"
 
-            delay=$((RANDOM % 20 + 10)) # 10–30 sec
+            delay=$((RANDOM % 20 + 10))
             echo "Sleeping for $delay seconds"
             sleep $delay
           done
