@@ -1,8 +1,8 @@
-name: Natural Daily Contributions (Smart)
+name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 1:00 PM PH Time
+    - cron: "0 5 * * *"  # 1 PM PH Time
   workflow_dispatch:
 
 jobs:
@@ -12,118 +12,110 @@ jobs:
       contents: write
 
     env:
+      TZ: "Asia/Manila"
       GIT_AUTHOR_NAME: "JoeyCollado"
       GIT_COMMITTER_NAME: "JoeyCollado"
       GIT_AUTHOR_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
       GIT_COMMITTER_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
-      TZ: "Asia/Manila"
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Smart Contribution System
+      - name: Contribution Engine
         env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
           set -e
-          mkdir work
-          cd work
 
-          echo "===== SMART CONTRIBUTION SYSTEM STARTED ====="
+          # -----------------------------------------
+          # CONFIG
+          # -----------------------------------------
+          TOTAL=$((RANDOM % 6 + 10)) # 10–15 commits
+          MIN_DELAY=20
+          MAX_DELAY=60
 
-          # Automatically fetch all public repos you own
-          echo "Fetching repos from GitHub API..."
-          curl -s -H "Authorization: token ${TOKEN}" \
-            "https://api.github.com/users/JoeyCollado/repos?per_page=200" \
-            | jq -r '.[].full_name' > repos.txt
-
-          # Optional: add private repos manually if needed
-          echo "JoeyCollado/private-repo-example" >> repos.txt
-
-          msgs=(
-            "docs: routine maintenance update"
-            "chore: daily sync"
-            "style: formatting improvements"
-            "refactor: tiny cleanup"
-            "perf: micro optimizations"
-            "chore: update system metadata"
-            "docs: auto-update"
+          repos=(
+            "JoeyCollado/Java-oop"
+            "JoeyCollado/ExpressJsCourse"
+            "JoeyCollado/absolute-movie"
+            "JoeyCollado/portfolio2"
+            "JoeyCollado/prisma-mongodb"
+            "JoeyCollado/crud-project"
           )
 
-          files=(
-            "README.md"
-            ".keepalive"
-            ".github/commit.log"
+          # AI-style commit message generator
+          ai_msgs=(
+            "refactor: improve code readability in module"
+            "chore: adjust helper logic for smoother execution"
+            "style: normalize formatting and spacing"
+            "feat: enhance internal utility functions"
+            "improvement: fine-tune module behaviors"
+            "update: small internal logic refresh"
+            "cleanup: remove stray redundant operations"
+            "refactor: streamline code sections for clarity"
+            "enhancement: tighten minor logic flow"
+            "internal: adjust code paths for maintainability"
           )
 
-          TOTAL=$((RANDOM % 6 + 10))
-          echo "Target commits today: $TOTAL"
-          echo ""
+          # files eligible for "real dev" modifications
+          code_targets=("*.js" "*.ts" "*.jsx" "*.tsx" "*.py")
 
-          success=0
-          failed=0
+          echo "Commits today: $TOTAL"
 
-          for i in $(seq 1 $TOTAL); do
-            echo "======== Commit #$i ========"
+          # -----------------------------------------
+          # LOOP
+          # -----------------------------------------
+          for n in $(seq 1 $TOTAL); do
+            repo=${repos[$RANDOM % ${#repos[@]}]}
 
-            repo=$(shuf -n 1 repos.txt)
-            echo "Selected repo: $repo"
+            echo "--- Working on $repo ---"
 
-            # ------ SMART CLONE CHECK ------
-            if ! git clone "https://x-access-token:${TOKEN}@github.com/$repo.git" "$i-repo" 2>/dev/null; then
-              echo "❌ Clone failed — repo is protected or unavailable"
-              failed=$((failed+1))
-              echo ""
+            git clone "https://x-access-token:${TOKEN}@github.com/$repo.git" repo --quiet || {
+              echo "Clone failed, skipping..."
               continue
-            fi
+            }
 
-            cd "$i-repo"
+            cd repo
 
+            # Author identity
             git config user.name "$GIT_AUTHOR_NAME"
             git config user.email "$GIT_AUTHOR_EMAIL"
-            git config --global --add safe.directory "$(pwd)"
 
-            target=${files[$RANDOM % ${#files[@]}]}
-            mkdir -p "$(dirname "$target")"
-            touch "$target"
+            # Pick a random file type
+            pattern=${code_targets[$RANDOM % ${#code_targets[@]}]}
+            target=$(find . -type f -name "$pattern" | shuf -n 1 || true)
 
-            echo "- update on $(date '+%Y-%m-%d %H:%M:%S')" >> "$target"
-
-            git add "$target"
-
-            msg=${msgs[$RANDOM % ${#msgs[@]}]}
-
-            # ------ SMART COMMIT CHECK ------
-            if ! git commit -m "$msg" >/dev/null 2>&1; then
-              echo "⚠ No changes to commit — skipping"
-              cd ..
-              rm -rf "$i-repo"
-              failed=$((failed+1))
-              echo ""
-              continue
+            # If none found, create a .keepalive file
+            if [ -z "$target" ]; then
+              target=".keepalive"
+              echo "" >> "$target"
             fi
 
-            # ------ SMART PUSH CHECK ------
-            if git push >/dev/null 2>&1; then
-              echo "✔ Commit pushed successfully"
-              success=$((success+1))
+            # -----------------------------------------
+            # RANDOM CODE CHANGE SIMULATION
+            # -----------------------------------------
+            ts=$(date '+%H:%M:%S')
+
+            echo "// auto-update $ts" >> "$target"
+
+            # AI-style commit message
+            msg=${ai_msgs[$RANDOM % ${#ai_msgs[@]}]}
+
+            git add "$target"
+            if git commit -m "$msg" --quiet; then
+              git push --quiet || echo "Push failed"
+              echo "[OK] Commit pushed: $msg"
             else
-              echo "❌ Push denied — repo is protected"
-              failed=$((failed+1))
+              echo "[SKIP] Nothing changed"
             fi
 
             cd ..
-            rm -rf "$i-repo"
+            rm -rf repo
 
-            delay=$((RANDOM % 60 + 40))
-            echo "Sleeping for $delay seconds..."
-            sleep $delay
-            echo ""
+            # -----------------------------------------
+            # REALISTIC HUMAN DELAY
+            # -----------------------------------------
+            wait=$((RANDOM % (MAX_DELAY - MIN_DELAY) + MIN_DELAY))
+            echo "Sleeping $wait seconds..."
+            sleep $wait
           done
-
-          echo "===== SUMMARY ====="
-          echo "Successful commits: $success"
-          echo "Failed/skipped: $failed"
-          echo "===================="
-
-          echo "🎉 Smart system finished!"
