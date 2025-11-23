@@ -1,4 +1,4 @@
-name: Natural Daily Contributions
+name: Natural Daily Contributions (Smart)
 
 on:
   schedule:
@@ -21,30 +21,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run Contribution Script
+      - name: Smart Contribution System
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir workspace
-          cd workspace
+          set -e
+          mkdir work
+          cd work
 
-          repos=(
-            "JoeyCollado/Java-oop"
-            "JoeyCollado/ExpressJsCourse"
-            "JoeyCollado/absolute-movie"
-            "JoeyCollado/portfolio2"
-            "JoeyCollado/prisma-mongodb"
-            "JoeyCollado/crud-project"
-          )
+          echo "===== SMART CONTRIBUTION SYSTEM STARTED ====="
+
+          # Automatically fetch all public repos you own
+          echo "Fetching repos from GitHub API..."
+          curl -s -H "Authorization: token ${TOKEN}" \
+            "https://api.github.com/users/JoeyCollado/repos?per_page=200" \
+            | jq -r '.[].full_name' > repos.txt
+
+          # Optional: add private repos manually if needed
+          echo "JoeyCollado/private-repo-example" >> repos.txt
 
           msgs=(
-            "docs: updated README"
-            "chore: metadata refresh"
-            "style: formatting pass"
-            "refactor: minor cleanup"
-            "perf: small optimization"
-            "chore: updated config set"
-            "docs: maintenance update"
+            "docs: routine maintenance update"
+            "chore: daily sync"
+            "style: formatting improvements"
+            "refactor: tiny cleanup"
+            "perf: micro optimizations"
+            "chore: update system metadata"
+            "docs: auto-update"
           )
 
           files=(
@@ -53,15 +56,28 @@ jobs:
             ".github/commit.log"
           )
 
-          TOTAL=$((RANDOM % 6 + 10)) # 10–15 commits
-          echo "Total commits today: $TOTAL"
+          TOTAL=$((RANDOM % 6 + 10))
+          echo "Target commits today: $TOTAL"
+          echo ""
+
+          success=0
+          failed=0
 
           for i in $(seq 1 $TOTAL); do
-            repo=${repos[$RANDOM % ${#repos[@]}]}
-            echo "--- Cloning $repo ---"
+            echo "======== Commit #$i ========"
 
-            git clone "https://x-access-token:${TOKEN}@github.com/$repo.git" >/dev/null 2>&1
-            cd "$(basename "$repo")" || { echo "Clone failed"; exit 1; }
+            repo=$(shuf -n 1 repos.txt)
+            echo "Selected repo: $repo"
+
+            # ------ SMART CLONE CHECK ------
+            if ! git clone "https://x-access-token:${TOKEN}@github.com/$repo.git" "$i-repo" 2>/dev/null; then
+              echo "❌ Clone failed — repo is protected or unavailable"
+              failed=$((failed+1))
+              echo ""
+              continue
+            fi
+
+            cd "$i-repo"
 
             git config user.name "$GIT_AUTHOR_NAME"
             git config user.email "$GIT_AUTHOR_EMAIL"
@@ -69,22 +85,45 @@ jobs:
 
             target=${files[$RANDOM % ${#files[@]}]}
             mkdir -p "$(dirname "$target")"
-
-            # ensure file exists
             touch "$target"
 
             echo "- update on $(date '+%Y-%m-%d %H:%M:%S')" >> "$target"
 
             git add "$target"
+
             msg=${msgs[$RANDOM % ${#msgs[@]}]}
 
-            git commit -m "$msg" || echo "No commit created"
-            git push || echo "Push failed"
+            # ------ SMART COMMIT CHECK ------
+            if ! git commit -m "$msg" >/dev/null 2>&1; then
+              echo "⚠ No changes to commit — skipping"
+              cd ..
+              rm -rf "$i-repo"
+              failed=$((failed+1))
+              echo ""
+              continue
+            fi
+
+            # ------ SMART PUSH CHECK ------
+            if git push >/dev/null 2>&1; then
+              echo "✔ Commit pushed successfully"
+              success=$((success+1))
+            else
+              echo "❌ Push denied — repo is protected"
+              failed=$((failed+1))
+            fi
 
             cd ..
-            rm -rf "$(basename "$repo")"
+            rm -rf "$i-repo"
 
-            delay=$((RANDOM % 20 + 10))
-            echo "Sleeping for $delay seconds"
+            delay=$((RANDOM % 60 + 40))
+            echo "Sleeping for $delay seconds..."
             sleep $delay
+            echo ""
           done
+
+          echo "===== SUMMARY ====="
+          echo "Successful commits: $success"
+          echo "Failed/skipped: $failed"
+          echo "===================="
+
+          echo "🎉 Smart system finished!"
