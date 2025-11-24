@@ -1,8 +1,8 @@
-name: Smart Daily Contributions
+name: Natural Daily Contributions
 
 on:
   schedule:
-    - cron: "0 5 * * *" # 1 PM PH Time
+    - cron: "0 5 * * *" # Runs daily at 1:00 PM PH time
   workflow_dispatch:
 
 jobs:
@@ -11,137 +11,30 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      MODE: "natural" # change to: hyper | natural | chill
-      GIT_AUTHOR_NAME: "JoeyCollado"
-      GIT_COMMITTER_NAME: "JoeyCollado"
-      GIT_AUTHOR_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
-      GIT_COMMITTER_EMAIL: "144526580+JoeyCollado@users.noreply.github.com"
-      TZ: "Asia/Manila"
-
     steps:
-      - name: Prepare Repo List
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Setup environment
         run: |
-          mkdir work
-          cd work
+          mkdir -p activity
+          echo "Preparing commit files..."
 
-          echo "Fetching your repos..."
-          curl -s "https://api.github.com/users/JoeyCollado/repos?per_page=200" \
-            | jq -r '.[].full_name' > repos.txt
-
-          echo "Done fetching repos."
-
-      - name: Run Smart Contribution System
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Make 10–15 random commits across files
         run: |
-          cd work
+          COMMITS=$((10 + RANDOM % 6))  # 10–15 commits
+          echo "Will create $COMMITS commits"
 
-          # MODE CONFIGURATION ---------------------------------------
-          if [[ "$MODE" == "hyper" ]]; then
-            MIN_COMMITS=15
-            MAX_COMMITS=25
-            MIN_DELAY=5
-            MAX_DELAY=20
-            echo "🔥 MODE: HYPER MODE"
-          elif [[ "$MODE" == "chill" ]]; then
-            MIN_COMMITS=3
-            MAX_COMMITS=6
-            MIN_DELAY=45
-            MAX_DELAY=120
-            echo "❄ MODE: CHILL MODE"
-          else
-            MIN_COMMITS=10
-            MAX_COMMITS=15
-            MIN_DELAY=30
-            MAX_DELAY=90
-            echo "🌿 MODE: NATURAL MODE"
-          fi
-          # ------------------------------------------------------------
-
-          TOTAL=$((RANDOM % (MAX_COMMITS - MIN_COMMITS + 1) + MIN_COMMITS))
-          echo "Target commits today: $TOTAL"
-
-          msgs=(
-            "chore: natural daily sync"
-            "docs: routine update"
-            "meta: internal maintenance"
-            "chore: refine repository metadata"
-            "perf: micro optimizations"
-            "refactor: clean minor internals"
-            "style: formatting consistency"
-            "update: daily auto-maintenance"
-          )
-
-          files=(
-            "README.md"
-            ".keepalive"
-            ".github/heartbeat.log"
-            "natural-update.txt"
-          )
-
-          success=0
-          failed=0
-
-          for i in $(seq 1 $TOTAL); do
-            echo "==========================="
-            echo " Commit #$i / $TOTAL"
-            echo "==========================="
-
-            repo=$(shuf -n 1 repos.txt)
-            echo "Selected repo: $repo"
-
-            # TRY CLONE --------------------------------------------------
-            if ! git clone "https://x-access-token:${TOKEN}@github.com/$repo" repo-dir 2>/dev/null; then
-              echo "❌ Clone failed (no permission or repo protected)"
-              failed=$((failed+1))
-              continue
-            fi
-
-            cd repo-dir
-
-            git config user.name "$GIT_AUTHOR_NAME"
-            git config user.email "$GIT_AUTHOR_EMAIL"
-            git config --global --add safe.directory "$(pwd)"
-
-            target=${files[$RANDOM % ${#files[@]}]}
-            mkdir -p "$(dirname "$target")"
-            echo "update: $(date '+%Y-%m-%d %H:%M:%S')" >> "$target"
-
-            git add .
-
-            msg=${msgs[$RANDOM % ${#msgs[@]}]}
-
-            # TRY COMMIT --------------------------------------------------
-            if ! git commit -m "$msg" >/dev/null 2>&1; then
-              echo "⚠ No changes to commit"
-              cd ..
-              rm -rf repo-dir
-              failed=$((failed+1))
-              continue
-            fi
-
-            # TRY PUSH ----------------------------------------------------
-            if git push >/dev/null 2>&1; then
-              echo "✔ Commit pushed"
-              success=$((success+1))
-            else
-              echo "❌ Push rejected (protected branch)"
-              failed=$((failed+1))
-            fi
-
-            cd ..
-            rm -rf repo-dir
-
-            # Human-like delay
-            DELAY=$((RANDOM % (MAX_DELAY - MIN_DELAY + 1) + MIN_DELAY))
-            echo "Sleeping $DELAY seconds..."
-            sleep $DELAY
-
-            echo ""
+          for ((i=1; i<=$COMMITS; i++)); do
+            FILE="activity/log_$i.txt"
+            echo "Update #$i at $(date)" >> $FILE
+            git add $FILE
+            git commit -m "Daily activity update ($i)"
+            sleep $((5 + RANDOM % 15))  # short safe delay 5–20 sec
           done
 
-          echo "======== SUMMARY ========"
-          echo "Successful commits: $success"
-          echo "Failed/Skipped: $failed"
-          echo "=========================="
+      - name: Push changes
+        run: |
+          git push origin HEAD
