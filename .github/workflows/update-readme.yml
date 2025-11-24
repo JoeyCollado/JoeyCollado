@@ -1,8 +1,8 @@
-name: Natural Daily Contributions
+name: Natural Daily Contributions (Ultra Smart)
 
 on:
   schedule:
-    - cron: "0 5 * * *" # Runs daily at 1:00 PM PH time
+    - cron: "0 5 * * *" # Runs daily 1PM PH
   workflow_dispatch:
 
 jobs:
@@ -20,24 +20,64 @@ jobs:
       - name: Configure git
         run: |
           git config user.name "JoeyCollado"
-          git config user.email "akosijoeyaibertcollado@gmail.com"
+          git config user.email "your_email@example.com"
 
       - name: Setup environment
-        run: |
-          mkdir -p activity
-          echo "Preparing commit files..."
+        run: mkdir -p activity
 
-      - name: Make 10–15 random commits across files
+      - name: Make 10–15 ultra-smart commits
         run: |
+          # Helper arrays
+          VERBS=("Fix" "Update" "Refactor" "Add" "Improve" "Adjust" "Polish" "Sync" "Enhance")
+          OBJECTS=("login flow" "documentation" "CSS" "backend logic" "README" "unit tests" "API endpoints" "scripts" "config files")
+          ADJECTIVES=("quickly" "minor" "tiny" "small" "light" "temporary" "experimental")
+          TYPO_CHANCE=20  # percent chance to add a typo
+
           COMMITS=$((10 + RANDOM % 6))  # 10–15 commits
-          echo "Will create $COMMITS commits"
+          echo "Planning $COMMITS commits..."
 
           for ((i=1; i<=$COMMITS; i++)); do
-            FILE="activity/log_$i.txt"
-            echo "Update #$i at $(date)" >> $FILE
-            git add $FILE
-            git commit -m "Daily activity update ($i)"
-            sleep $((5 + RANDOM % 15))  # safe 5–20 sec delay
+            # Pick random elements
+            VERB="${VERBS[$RANDOM % ${#VERBS[@]}]}"
+            OBJ="${OBJECTS[$RANDOM % ${#OBJECTS[@]}]}"
+            ADJ="${ADJECTIVES[$RANDOM % ${#ADJECTIVES[@]}]}"
+
+            MSG="$VERB $OBJ $ADJ"
+
+            # Randomly add typo
+            if (( RANDOM % 100 < TYPO_CHANCE )); then
+              # Simple typo: drop a random character
+              LEN=${#MSG}
+              POS=$((RANDOM % LEN))
+              MSG="${MSG:0:$POS}${MSG:$((POS+1))}"
+            fi
+
+            # Random capitalization
+            if (( RANDOM % 2 == 0 )); then
+              MSG=$(echo "$MSG" | awk '{print toupper(substr($0,1,1)) substr($0,2)}')
+            fi
+
+            # Random punctuation
+            PUNCTUATION=("." "!" "" "...")
+            MSG="$MSG${PUNCTUATION[$RANDOM % ${#PUNCTUATION[@]}]}"
+
+            # Choose random file
+            FILE_INDEX=$((RANDOM % 4))
+            case $FILE_INDEX in
+              0) FILE="activity/log_$i.txt" ;;
+              1) FILE="activity/notes.txt" ;;
+              2) FILE="activity/history.md" ;;
+              3) FILE="activity/dev-diary.txt" ;;
+            esac
+
+            # Write message to file
+            echo "$MSG @ $(date +"%T")" >> "$FILE"
+
+            git add "$FILE"
+            git commit -m "$MSG"
+
+            # Random human-like delay
+            sleep $((5 + RANDOM % 20))
           done
 
       - name: Add additional repository remotes
@@ -48,17 +88,26 @@ jobs:
           git remote add nextjscourse2 https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/nextJsCourse2.git
           git remote add java-oop https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/Java-oop.git
 
-      - name: Push changes to all repositories
+      - name: Push changes to all repositories (with retries)
         run: |
-          echo "Pushing to main repository..."
-          git push origin HEAD
-          echo "Pushing to gemini-cli..."
-          git push gemini-cli HEAD
-          echo "Pushing to JoeyCollado..."
-          git push joeycollado HEAD
-          echo "Pushing to Prisma-Course..."
-          git push prisma-course HEAD
-          echo "Pushing to nextJsCourse2..."
-          git push nextjscourse2 HEAD
-          echo "Pushing to Java-oop..."
-          git push java-oop HEAD
+          repos=("origin" "gemini-cli" "joeycollado" "prisma-course" "nextjscourse2" "java-oop")
+
+          for repo in "${repos[@]}"; do
+            echo "---- Pushing to $repo ----"
+            success=false
+
+            for attempt in {1..3}; do
+              git push "$repo" HEAD && { success=true; break; }
+              echo "Push to $repo failed (attempt $attempt), retrying..."
+              sleep $((5 + RANDOM % 10))
+            done
+
+            if [ "$success" = false ]; then
+              echo "Skipping $repo after 3 failed attempts"
+            else
+              echo "Successfully pushed to $repo"
+            fi
+
+            # Random natural delay between pushes
+            sleep $((3 + RANDOM % 7))
+          done
