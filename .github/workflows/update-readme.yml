@@ -12,10 +12,15 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout main repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
+
+      - name: Configure git
+        run: |
+          git config user.name "JoeyCollado"
+          git config user.email "akosijoeyaibertcollado@gmail.com"
 
       - name: Setup environment
         run: |
@@ -32,9 +37,28 @@ jobs:
             echo "Update #$i at $(date)" >> $FILE
             git add $FILE
             git commit -m "Daily activity update ($i)"
-            sleep $((5 + RANDOM % 15))  # short safe delay 5–20 sec
+            sleep $((5 + RANDOM % 15))  # safe 5–20 sec delay
           done
 
-      - name: Push changes
+      - name: Add additional repository remotes
         run: |
+          git remote add gemini-cli https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/gemini-cli.git
+          git remote add joeycollado https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/JoeyCollado.git
+          git remote add prisma-course https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/Prisma-Course.git
+          git remote add nextjscourse2 https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/nextJsCourse2.git
+          git remote add java-oop https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/Java-oop.git
+
+      - name: Push changes to all repositories
+        run: |
+          echo "Pushing to main repository..."
           git push origin HEAD
+          echo "Pushing to gemini-cli..."
+          git push gemini-cli HEAD
+          echo "Pushing to JoeyCollado..."
+          git push joeycollado HEAD
+          echo "Pushing to Prisma-Course..."
+          git push prisma-course HEAD
+          echo "Pushing to nextJsCourse2..."
+          git push nextjscourse2 HEAD
+          echo "Pushing to Java-oop..."
+          git push java-oop HEAD
