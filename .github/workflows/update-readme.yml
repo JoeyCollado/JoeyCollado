@@ -1,8 +1,8 @@
-name: Natural Daily Contributions (Context-Aware)
+name: Natural Daily Contributions (Code-Aware)
 
 on:
   schedule:
-    - cron: "0 5 * * *" # Runs daily 1PM PH
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,48 +25,38 @@ jobs:
       - name: Setup environment
         run: mkdir -p activity
 
-      - name: Make 10–15 context-aware commits
+      - name: Make 10–15 dynamic commits
         run: |
           VERBS=("Fix" "Update" "Refactor" "Add" "Improve" "Adjust" "Polish" "Sync" "Enhance")
           ADJECTIVES=("quickly" "minor" "tiny" "small" "light" "temporary" "experimental")
           TYPO_CHANCE=20
+          FILES=("activity/log.txt" "activity/notes.txt" "activity/history.md" "activity/dev-diary.txt" "*.js" "*.ts" "*.py")
 
           COMMITS=$((10 + RANDOM % 6))
           echo "Planning $COMMITS commits..."
 
           for ((i=1; i<=$COMMITS; i++)); do
-            # Choose random file
-            FILE_INDEX=$((RANDOM % 4))
-            case $FILE_INDEX in
-              0)
-                FILE="activity/log_$i.txt"
-                DESC="log file update"
-                ;;
-              1)
-                FILE="activity/notes.txt"
-                DESC="notes edits"
-                ;;
-              2)
-                FILE="activity/history.md"
-                DESC="history changes"
-                ;;
-              3)
-                FILE="activity/dev-diary.txt"
-                DESC="dev diary update"
-                ;;
-            esac
+            # Pick a random file type
+            FILE="${FILES[$RANDOM % ${#FILES[@]}]}"
 
-            # Write some random content
-            RANDOM_TEXT=("Minor tweak" "Update info" "Adjust values" "Refactor section" "Add details" "Correct typo")
-            CONTENT="${RANDOM_TEXT[$RANDOM % ${#RANDOM_TEXT[@]}]}"
-            echo "$CONTENT @ $(date +"%T")" >> "$FILE"
+            # Create or update file
+            if [[ "$FILE" == *.js || "$FILE" == *.ts || "$FILE" == *.py ]]; then
+              # Add some code line
+              echo "// temp edit $(date +"%T")" >> "$FILE"
+              # Extract last line for context
+              SNIPPET=$(tail -n 1 "$FILE")
+              DESC="code change: ${SNIPPET:0:30}"
+            else
+              echo "Random update @ $(date +"%T")" >> "$FILE"
+              DESC="update in $FILE"
+            fi
 
-            # Generate commit message based on file change
+            # Generate commit message
             VERB="${VERBS[$RANDOM % ${#VERBS[@]}]}"
             ADJ="${ADJECTIVES[$RANDOM % ${#ADJECTIVES[@]}]}"
             MSG="$VERB $DESC $ADJ"
 
-            # Randomly add typo
+            # Random typo
             if (( RANDOM % 100 < TYPO_CHANCE )); then
               LEN=${#MSG}
               POS=$((RANDOM % LEN))
@@ -85,7 +75,7 @@ jobs:
             git add "$FILE"
             git commit -m "$MSG"
 
-            # Random human-like delay
+            # Human-like delay
             sleep $((5 + RANDOM % 20))
           done
 
