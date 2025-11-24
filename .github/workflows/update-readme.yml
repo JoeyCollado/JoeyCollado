@@ -1,4 +1,4 @@
-name: Natural Daily Contributions (Ultra Smart)
+name: Natural Daily Contributions (Context-Aware)
 
 on:
   schedule:
@@ -25,28 +25,49 @@ jobs:
       - name: Setup environment
         run: mkdir -p activity
 
-      - name: Make 10–15 ultra-smart commits
+      - name: Make 10–15 context-aware commits
         run: |
-          # Helper arrays
           VERBS=("Fix" "Update" "Refactor" "Add" "Improve" "Adjust" "Polish" "Sync" "Enhance")
-          OBJECTS=("login flow" "documentation" "CSS" "backend logic" "README" "unit tests" "API endpoints" "scripts" "config files")
           ADJECTIVES=("quickly" "minor" "tiny" "small" "light" "temporary" "experimental")
-          TYPO_CHANCE=20  # percent chance to add a typo
+          TYPO_CHANCE=20
 
-          COMMITS=$((10 + RANDOM % 6))  # 10–15 commits
+          COMMITS=$((10 + RANDOM % 6))
           echo "Planning $COMMITS commits..."
 
           for ((i=1; i<=$COMMITS; i++)); do
-            # Pick random elements
-            VERB="${VERBS[$RANDOM % ${#VERBS[@]}]}"
-            OBJ="${OBJECTS[$RANDOM % ${#OBJECTS[@]}]}"
-            ADJ="${ADJECTIVES[$RANDOM % ${#ADJECTIVES[@]}]}"
+            # Choose random file
+            FILE_INDEX=$((RANDOM % 4))
+            case $FILE_INDEX in
+              0)
+                FILE="activity/log_$i.txt"
+                DESC="log file update"
+                ;;
+              1)
+                FILE="activity/notes.txt"
+                DESC="notes edits"
+                ;;
+              2)
+                FILE="activity/history.md"
+                DESC="history changes"
+                ;;
+              3)
+                FILE="activity/dev-diary.txt"
+                DESC="dev diary update"
+                ;;
+            esac
 
-            MSG="$VERB $OBJ $ADJ"
+            # Write some random content
+            RANDOM_TEXT=("Minor tweak" "Update info" "Adjust values" "Refactor section" "Add details" "Correct typo")
+            CONTENT="${RANDOM_TEXT[$RANDOM % ${#RANDOM_TEXT[@]}]}"
+            echo "$CONTENT @ $(date +"%T")" >> "$FILE"
+
+            # Generate commit message based on file change
+            VERB="${VERBS[$RANDOM % ${#VERBS[@]}]}"
+            ADJ="${ADJECTIVES[$RANDOM % ${#ADJECTIVES[@]}]}"
+            MSG="$VERB $DESC $ADJ"
 
             # Randomly add typo
             if (( RANDOM % 100 < TYPO_CHANCE )); then
-              # Simple typo: drop a random character
               LEN=${#MSG}
               POS=$((RANDOM % LEN))
               MSG="${MSG:0:$POS}${MSG:$((POS+1))}"
@@ -60,18 +81,6 @@ jobs:
             # Random punctuation
             PUNCTUATION=("." "!" "" "...")
             MSG="$MSG${PUNCTUATION[$RANDOM % ${#PUNCTUATION[@]}]}"
-
-            # Choose random file
-            FILE_INDEX=$((RANDOM % 4))
-            case $FILE_INDEX in
-              0) FILE="activity/log_$i.txt" ;;
-              1) FILE="activity/notes.txt" ;;
-              2) FILE="activity/history.md" ;;
-              3) FILE="activity/dev-diary.txt" ;;
-            esac
-
-            # Write message to file
-            echo "$MSG @ $(date +"%T")" >> "$FILE"
 
             git add "$FILE"
             git commit -m "$MSG"
@@ -95,19 +104,15 @@ jobs:
           for repo in "${repos[@]}"; do
             echo "---- Pushing to $repo ----"
             success=false
-
             for attempt in {1..3}; do
               git push "$repo" HEAD && { success=true; break; }
               echo "Push to $repo failed (attempt $attempt), retrying..."
               sleep $((5 + RANDOM % 10))
             done
-
             if [ "$success" = false ]; then
               echo "Skipping $repo after 3 failed attempts"
             else
               echo "Successfully pushed to $repo"
             fi
-
-            # Random natural delay between pushes
             sleep $((3 + RANDOM % 7))
           done
