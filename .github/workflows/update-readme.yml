@@ -20,7 +20,7 @@ jobs:
       - name: Configure git
         run: |
           git config user.name "JoeyCollado"
-          git config user.email "your_email@example.com"
+          git config user.email "akosijoeyaibertcollado@gmail.com"
 
       - name: Setup environment
         run: mkdir -p activity
