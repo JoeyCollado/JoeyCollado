@@ -43,7 +43,7 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
 
 <h1 align="center" style="color: blue;">
-   🌟 Trophies
+    Trophies
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br>
 </h1>
@@ -72,7 +72,7 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
 
 <h1 align="center">
-🌟 About Me  
+ About Me  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br>
 </h1>
@@ -82,15 +82,13 @@ If you're interested in building something together, let’s connect!</h3>
     <td>
       <br>
       
-🚀 Passionate about **Full-Stack Web Development**, specializing in **React, Next.js, and TailwindCSS**.<br><br>
+ Passionate about **Full-Stack Web Development**, specializing in **Nextjs Stack.**.<br><br>
       
-💡 Building interactive & engaging user experiences with **Framer Motion & Three.js**.<br><br>
+ Active in **open-source contributions**, helping improve the tech community.<br><br>
 
-🏆 Active in **open-source contributions**, helping improve the tech community.<br><br>
+ Constantly learning **new web technologies** to stay ahead in the game.<br><br>
 
-🎯 Constantly learning **new web technologies** to stay ahead in the game.<br><br>
-
-📧 **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
+ **Let's Connect**: [akosijoeyaibertcollado@gmail.com](mailto:akosijoeyaibertcollado@gmail.com)
 
 <br>
     </td>
@@ -104,7 +102,7 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
 
 <h1 align="center" style="color: blue;">
-   📜 Certificates
+    Certificates
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br>
 </h1>
@@ -157,7 +155,7 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
 
 <h1 align="center">
-   🌐 Connect with Me  
+    Connect with Me  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
    <br>
 </h1>
@@ -195,7 +193,7 @@ If you're interested in building something together, let’s connect!</h3>
 
 <div align="center">
   
-### 🚀 Frontend Development  
+###  Frontend Development  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -229,7 +227,7 @@ If you're interested in building something together, let’s connect!</h3>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
 </marquee>
 
-### 🖥️ Development Tools & IDEs  
+###  Development Tools & IDEs  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code Badge">
 <img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
@@ -244,14 +242,14 @@ If you're interested in building something together, let’s connect!</h3>
 <img src="https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=git&logoColor=white" />
 </marquee>
 
-### 🎨 UI/UX & Design Tools  
+###  UI/UX & Design Tools  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 <img src="https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" />
 <img src="https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white" />
 </marquee>
 
-### 🤖 AI & Machine Learning  
+###  AI & Machine Learning  
 <marquee behavior="scroll" direction="left" scrollamount="8">
 <img src="https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white" />
@@ -278,38 +276,7 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&height=20&width=100%" alt="Neon Glow Divider">
 </p>
 
-<h1 align="center">
-   🌟 Fun Facts & Achievements  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
-   <br>
-</h1>
 
-
-<table align="center">
-  <tr>
-    <td>
-    <br>
-      
-✨ **Fun Facts**:  
-
-🎨 UI/UX enthusiast with a passion for **clean and responsive design**.
-
-🏗️ Love experimenting with **3D elements and animations** in web apps.
-
-🔥 Enjoy **teaching and mentoring** others in coding.  
-
-🏆 **Achievements**:  
-
-🥇 **Top Contributor** in various GitHub repositories.  
-
-🌍 Built and launched multiple **production-level web apps**. 
-
-🏆 **Hackathon Champion** in web development competitions.
-
-  <br>
-  </td>
-  </tr>
-  </table>
 
   <br><br>
 
