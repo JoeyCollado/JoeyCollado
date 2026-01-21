@@ -124,7 +124,7 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://img.shields.io/badge/Appcon%20(2024)-AppCon-blue?style=for-the-badge" alt="Appcon 2024"/>
    </a>
     <br><br>
-   <a href="assets/cert/aiExperience.png" target="_blank">
+   <a href="assets/cert/aiExperience.jpg" target="_blank">
    <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="AI Experience 2026"/>
    </a>
    <br><br>
