@@ -125,7 +125,7 @@ If you're interested in building something together, let’s connect!</h3>
    </a>
     <br><br>
    <a href="assets/cert/aiExperience.jpg" target="_blank">
-   <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="AI Experience 2026"/>
+   <img src="https://img.shields.io/badge/AI%20Experience%20(2026)-ICCT.Colleges-blue?style=for-the-badge" alt="AI Experience 2026"/>
    </a>
    <br><br>
    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D023FCEAAF81E80FCF7D411C649A6A4D7266" target="_blank">
