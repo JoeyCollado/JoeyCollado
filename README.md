@@ -186,90 +186,112 @@ If you're interested in building something together, let’s connect!</h3>
 </p>
 
 <h1 align="center">
-   🛠️ Tech Stacks  
+  Tech Stack  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=500&color=00A2FF&center=true&vCenter=true&width=1000&lines=━━━━━━━━━━✦✧✦━━━━━━━━━━" />
-   <br>
 </h1>
 
-<div align="center">
-  
-###  Frontend Development  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/TailwindCSS-%2306B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-   <br>
-<img src="https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/ShadCN-%23BBDEFB?style=for-the-badge&logo=shadcn&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Framer_Motion-%23FF0050?style=for-the-badge&logo=framer&logoColor=white" />
-<img src="https://img.shields.io/badge/Three.js-%23000000?style=for-the-badge&logo=three.js&logoColor=white" />
-</marquee>
+<table align="center" width="90%">
+  <tr>
+    <th align="left">Area</th>
+    <th align="left">Technologies</th>
+  </tr>
 
-### ⚙️ Backend Development  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-%23000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-%233776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-%23007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Socket.IO-%23000000?style=for-the-badge&logo=socket.io&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Most Used</strong></td>
+    <td>
+      Javascript, React, Next.js, TypeScript, Tailwind CSS, Node.js, Express,
+      PostgreSQL, Prisma, MongoDB, Javascript, Axios,
+      Vercel, Git
+    </td>
+  </tr>
 
-### 🛢️ Databases & ORM  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Prisma-%23000000?style=for-the-badge&logo=prisma&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-%23336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Oracle-%23F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-<img src="https://img.shields.io/badge/Clerk-%230098CB?style=for-the-badge&logo=clerk&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
-</marquee>
+  <tr>
+    <td><strong>Web</strong></td>
+    <td>
+      React, Next.js, Vite, Tailwind CSS, Zustand, Radix UI, shadcn/ui,
+      Framer Motion, GSAP, React Router, React Hook Form, Zod,
+      Axios, Three.js, Recharts
+    </td>
+  </tr>
 
-###  Development Tools & IDEs  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code Badge">
-<img src="https://img.shields.io/badge/Visual_Studio-%235C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
-<img src="https://img.shields.io/badge/Eclipse_IDE-%232C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
-<img src="https://img.shields.io/badge/Visual_Basic-%235C2D91?style=for-the-badge&logo=microsoft&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Mobile</strong></td>
+    <td>
+      React Native
+    </td>
+  </tr>
 
-### 🔧 Version Control & Collaboration  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Git_Bash-%23181818?style=for-the-badge&logo=git&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Backend</strong></td>
+    <td>
+      Node.js, Express, FastAPI, REST API, WebSockets, Socket.IO
+    </td>
+  </tr>
 
-###  UI/UX & Design Tools  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/FontAwesome-%23339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" />
-<img src="https://img.shields.io/badge/SVG_Repo-%23000000?style=for-the-badge&logo=svg&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Database</strong></td>
+    <td>
+      PostgreSQL, MongoDB, Prisma, Drizzle ORM
+    </td>
+  </tr>
 
-###  AI & Machine Learning  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/OpenAI-%23000000?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/DeepSeek-%23FF6D00?style=for-the-badge&logo=deepseek&logoColor=white" />
-<img src="https://img.shields.io/badge/ChatGPT-%2300A67E?style=for-the-badge&logo=chatgpt&logoColor=white" />
-<img src="https://img.shields.io/badge/Copilot-%23181717?style=for-the-badge&logo=githubcopilot&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Authentication</strong></td>
+    <td>
+      NextAuth.js, Clerk
+    </td>
+  </tr>
 
-### 🗺️ Geospatial & Mapping  
-<marquee behavior="scroll" direction="left" scrollamount="8">
-<img src="https://img.shields.io/badge/Leaflet-%23199977?style=for-the-badge&logo=leaflet&logoColor=white" />
-</marquee>
+  <tr>
+    <td><strong>Cloud</strong></td>
+    <td>
+      Vercel
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>DevOps</strong></td>
+    <td>
+      Git, GitHub Actions, Docker, CI/CD
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>AI / Machine Learning</strong></td>
+    <td>
+      PyTorch, TensorFlow, OpenCV
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Testing</strong></td>
+    <td>
+      Postman, ReqBin
+    </td>
+  </tr>
+
+  <tr>
+    <td><strong>Tooling</strong></td>
+    <td>
+      TypeScript, PNPM, ESLint, Prettier,
+      PostCSS, Turbopack
+    </td>
+  </tr>
+</table>
+
 <br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/gif/Skills_Animation_Dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="/assets/gif/Skills_Animation_White.gif">
-  <img alt="GIF description" src="/assets/gif/Skills_Animation_Dark.gif">
-</picture>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/assets/gif/Skills_Animation_Dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="/assets/gif/Skills_Animation_White.gif">
+    <img alt="Skills Animation" src="/assets/gif/Skills_Animation_Dark.gif" width="400">
+  </picture>
+</p>
 
 
 <br><br>
+
 </div>
 
 <p align="center">
