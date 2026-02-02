@@ -1,8 +1,8 @@
-name: Natural Daily Contributions (Code-Aware)
+name: Workflow
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "0 0 * * *"   # baseline only
   workflow_dispatch:
 
 jobs:
@@ -11,98 +11,66 @@ jobs:
     permissions:
       contents: write
 
+    strategy:
+      matrix:
+        repo:
+          - gemini-cli
+          - Prisma-Course
+          - nextJsCourse2
+          - Java-oop
+
     steps:
-      - name: Checkout main repository
+      - name: Random delay (0–8 hours)
+        run: |
+          sleep $((RANDOM % 28800))
+
+      - name: Checkout target repo
         uses: actions/checkout@v4
         with:
+          repository: JoeyCollado/${{ matrix.repo }}
           token: ${{ secrets.PAT }}
+          path: repo
 
       - name: Configure git
         run: |
-          git config user.name "JoeyCollado"
-          git config user.email "akosijoeyaibertcollado@gmail.com"
+          git config --global user.name "JoeyCollado"
+          git config --global user.email "akosijoeyaibertcollado@gmail.com"
 
-      - name: Setup environment
-        run: mkdir -p activity
-
-      - name: Make 10–15 dynamic commits
+      - name: Select realistic file
         run: |
-          VERBS=("Fix" "Update" "Refactor" "Add" "Improve" "Adjust" "Polish" "Sync" "Enhance")
-          ADJECTIVES=("quickly" "minor" "tiny" "small" "light" "temporary" "experimental")
-          TYPO_CHANCE=20
-          FILES=("activity/log.txt" "activity/notes.txt" "activity/history.md" "activity/dev-diary.txt" "*.js" "*.ts" "*.py")
+          cd repo
 
-          COMMITS=$((10 + RANDOM % 6))
-          echo "Planning $COMMITS commits..."
+          CANDIDATES=()
 
-          for ((i=1; i<=$COMMITS; i++)); do
-            # Pick a random file type
-            FILE="${FILES[$RANDOM % ${#FILES[@]}]}"
+          [ -f README.md ] && CANDIDATES+=("README.md")
+          [ -d docs ] && CANDIDATES+=("docs/notes.md")
+          [ -d src ] && CANDIDATES+=("src/index.ts")
+          [ -d app ] && CANDIDATES+=("app/page.tsx")
 
-            # Create or update file
-            if [[ "$FILE" == *.js || "$FILE" == *.ts || "$FILE" == *.py ]]; then
-              # Add some code line
-              echo "// temp edit $(date +"%T")" >> "$FILE"
-              # Extract last line for context
-              SNIPPET=$(tail -n 1 "$FILE")
-              DESC="code change: ${SNIPPET:0:30}"
-            else
-              echo "Random update @ $(date +"%T")" >> "$FILE"
-              DESC="update in $FILE"
-            fi
+          if [ ${#CANDIDATES[@]} -eq 0 ]; then
+            echo "No safe files found, skipping"
+            exit 0
+          fi
 
-            # Generate commit message
-            VERB="${VERBS[$RANDOM % ${#VERBS[@]}]}"
-            ADJ="${ADJECTIVES[$RANDOM % ${#ADJECTIVES[@]}]}"
-            MSG="$VERB $DESC $ADJ"
+          FILE="${CANDIDATES[$RANDOM % ${#CANDIDATES[@]}]}"
+          mkdir -p "$(dirname "$FILE")"
 
-            # Random typo
-            if (( RANDOM % 100 < TYPO_CHANCE )); then
-              LEN=${#MSG}
-              POS=$((RANDOM % LEN))
-              MSG="${MSG:0:$POS}${MSG:$((POS+1))}"
-            fi
+          echo "" >> "$FILE"
 
-            # Random capitalization
-            if (( RANDOM % 2 == 0 )); then
-              MSG=$(echo "$MSG" | awk '{print toupper(substr($0,1,1)) substr($0,2)}')
-            fi
+          git add "$FILE"
+          git diff --cached --quiet && exit 0
 
-            # Random punctuation
-            PUNCTUATION=("." "!" "" "...")
-            MSG="$MSG${PUNCTUATION[$RANDOM % ${#PUNCTUATION[@]}]}"
-
-            git add "$FILE"
-            git commit -m "$MSG"
-
-            # Human-like delay
-            sleep $((5 + RANDOM % 20))
-          done
-
-      - name: Add additional repository remotes
+      - name: Commit & push
         run: |
-          git remote add gemini-cli https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/gemini-cli.git
-          git remote add joeycollado https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/JoeyCollado.git
-          git remote add prisma-course https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/Prisma-Course.git
-          git remote add nextjscourse2 https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/nextJsCourse2.git
-          git remote add java-oop https://x-access-token:${{ secrets.PAT }}@github.com/JoeyCollado/Java-oop.git
+          cd repo
 
-      - name: Push changes to all repositories (with retries)
-        run: |
-          repos=("origin" "gemini-cli" "joeycollado" "prisma-course" "nextjscourse2" "java-oop")
+          MSGS=(
+            "Improve documentation clarity"
+            "Minor wording cleanup"
+            "Clarify example usage"
+            "Small readability improvement"
+            "Tweak comments for clarity"
+          )
 
-          for repo in "${repos[@]}"; do
-            echo "---- Pushing to $repo ----"
-            success=false
-            for attempt in {1..3}; do
-              git push "$repo" HEAD && { success=true; break; }
-              echo "Push to $repo failed (attempt $attempt), retrying..."
-              sleep $((5 + RANDOM % 10))
-            done
-            if [ "$success" = false ]; then
-              echo "Skipping $repo after 3 failed attempts"
-            else
-              echo "Successfully pushed to $repo"
-            fi
-            sleep $((3 + RANDOM % 7))
-          done
+          git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
+          git push
