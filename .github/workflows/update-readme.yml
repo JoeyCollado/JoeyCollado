@@ -1,16 +1,14 @@
-name: Daily Low-Risk Maintenance
+name: Daily Activity Bot
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # Runs daily at 12:00 AM Philippines time (UTC+8)
+    - cron: "0 16 * * *"
   workflow_dispatch:
 
 jobs:
-  contribute:
+  commit:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     strategy:
       fail-fast: false
       matrix:
@@ -23,63 +21,42 @@ jobs:
     steps:
       - name: Random delay (0–8 hours)
         run: |
-          sleep $((RANDOM % 28800))
+          DELAY=$((RANDOM % 28800))
+          echo "Sleeping for $DELAY seconds"
+          sleep $DELAY
 
-      - name: Checkout target repo
+      - name: Checkout repo
         uses: actions/checkout@v4
-        continue-on-error: true
         with:
           repository: JoeyCollado/${{ matrix.repo }}
           token: ${{ secrets.PAT }}
-          path: repo
-
-      - name: Verify checkout
-        run: |
-          if [ ! -d repo/.git ]; then
-            echo "Checkout failed for ${{ matrix.repo }}, skipping"
-            exit 0
-          fi
+          fetch-depth: 1
 
       - name: Configure git
         run: |
-          git config --global user.name "JoeyCollado"
-          git config --global user.email "akosijoeyaibertcollado@gmail.com"
+          git config --global user.name "Joey Collado"
+          git config --global user.email "joeycollado@users.noreply.github.com"
 
-      - name: Apply minimal realistic change
+      - name: Make small change
+        continue-on-error: true
         run: |
-          cd repo
-
           CANDIDATES=()
+
           [ -f README.md ] && CANDIDATES+=("README.md")
-          [ -d docs ] && CANDIDATES+=("docs/notes.md")
-          [ -d src ] && CANDIDATES+=("src/index.ts")
-          [ -d app ] && CANDIDATES+=("app/page.tsx")
+          [ -f docs/notes.md ] && CANDIDATES+=("docs/notes.md")
+          [ -f src/index.ts ] && CANDIDATES+=("src/index.ts")
+          [ -f app/page.tsx ] && CANDIDATES+=("app/page.tsx")
 
           if [ ${#CANDIDATES[@]} -eq 0 ]; then
-            echo "No safe files found, skipping repo"
+            echo "No editable files found, skipping."
             exit 0
           fi
 
-          FILE="${CANDIDATES[$RANDOM % ${#CANDIDATES[@]}]}"
-          mkdir -p "$(dirname "$FILE")"
+          FILE=${CANDIDATES[$RANDOM % ${#CANDIDATES[@]}]}
 
-          echo "<!-- doc tweak -->" >> "$FILE"
+          echo "" >> "$FILE"
+          echo "<!-- update $(date) -->" >> "$FILE"
 
           git add "$FILE"
-          git diff --cached --quiet && exit 0
-
-      - name: Commit & push (safe)
-        run: |
-          cd repo
-
-          MSGS=(
-            "Improve documentation clarity"
-            "Minor wording cleanup"
-            "Clarify example usage"
-            "Small readability improvement"
-            "Tweak comments for clarity"
-          )
-
-          git commit -m "${MSGS[$RANDOM % ${#MSGS[@]}]}"
-
-          git push || echo "Push skipped (protected branch or permission issue)"
+          git commit -m "chore: minor update" || exit 0
+          git push
