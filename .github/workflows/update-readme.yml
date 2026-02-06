@@ -24,18 +24,18 @@ jobs:
     steps:
       - name: Random delay (0–8 hours)
         run: |
-          sleep $((RANDOM % 28800))
+          sleep $((RANDOM % 18000))
 
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           repository: JoeyCollado/${{ matrix.repo }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_PAT }}
           fetch-depth: 1
 
       - name: Configure git
         run: |
-          git config --global user.name "Joey Collado"
+          git config --global user.name "JoeyCollado"
           git config --global user.email "akosijoeyaibertcollado@gmail.com"
 
       - name: Make small change
