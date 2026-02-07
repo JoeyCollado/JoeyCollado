@@ -128,7 +128,7 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://img.shields.io/badge/AI%20Experience%20(2026)-ICCT.Colleges-blue?style=for-the-badge" alt="AI Experience 2026"/>
    </a>
    <br><br>
-   <a href="/assets/cert/database-administration.jpg" target="_blank">
+   <a href="/assets/cert/database-administration.jfif" target="_blank">
    <img src="https://img.shields.io/badge/Basic%20Principles%20of%20Database%20Administration%20and%20Design-ICCT.Colleges-blue?style=for-the-badge" alt="Basic Principles of Database Administration and Design"/>
    </a>
    <br><br>
