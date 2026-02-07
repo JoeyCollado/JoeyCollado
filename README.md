@@ -128,8 +128,8 @@ If you're interested in building something together, let’s connect!</h3>
    <img src="https://img.shields.io/badge/AI%20Experience%20(2026)-ICCT.Colleges-blue?style=for-the-badge" alt="AI Experience 2026"/>
    </a>
    <br><br>
-   <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C6331BCA6BEBD99297FD81E66BE2D023FCEAAF81E80FCF7D411C649A6A4D7266" target="_blank">
-   <img src="https://img.shields.io/badge/Placeholder-ICCT.Colleges-blue?style=for-the-badge" alt="Placeholder"/>
+   <a href="/assets/cert/database-administration.jpg" target="_blank">
+   <img src="https://img.shields.io/badge/Basic%20Principles%20of%20Database%20Administration%20and%20Design-ICCT.Colleges-blue?style=for-the-badge" alt="Basic Principles of Database Administration and Design"/>
    </a>
    <br><br>
    <a href="assets/cert/IoT.png" target="_blank">
