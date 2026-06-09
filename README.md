@@ -224,7 +224,7 @@ If you're interested in building something together, let’s connect!</h3>
   <tr>
     <td><strong>Backend</strong></td>
     <td>
-      Node.js, Express, FastAPI, REST API, WebSockets, Socket.IO
+      Node.js, Express, FastAPI, REST API, WebSockets, Socket.IO, Render
     </td>
   </tr>
 
