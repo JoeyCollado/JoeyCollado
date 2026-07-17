@@ -30,8 +30,8 @@ If you're interested in building something together, let’s connect!</h3>
     </td>
   </tr>
   <br>
-  <p align="center">
-     <a align="center" href="https://joey-collado.vercel.app/">Check my portfolio</a>
+  <p align="center font-bold">
+     <a align="center" href=" https://joey-dev-aha.vercel.app">Check my portfolio</a>
        </p>
      <br>
 </table>
